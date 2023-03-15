@@ -74,47 +74,59 @@ public class Server {
 
     public void close(){
 
-        //closes the socket
         try {
             socket.close();
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
-
-        //closes the serverSocket
-        try{
             serverSocket.close();
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
-
-        //closes the inputStreamReader
-        try {
             inputStreamReader.close();
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
-
-        //closes the outputStreamWriter
-        try {
             outputStreamWriter.close();
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
-
-        //closes the bufferedWriter
-        try {
             bufferedWriter.close();
+            bufferedReader.close();
+
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
 
-        //closes the bufferedReader
-        try {
-            bufferedReader.close();
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
+//        //closes the socket
+//        try {
+//            socket.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+//
+//        //closes the serverSocket
+//        try{
+//            serverSocket.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+//
+//        //closes the inputStreamReader
+//        try {
+//            inputStreamReader.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+//
+//        //closes the outputStreamWriter
+//        try {
+//            outputStreamWriter.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+//
+//        //closes the bufferedWriter
+//        try {
+//            bufferedWriter.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
+//
+//        //closes the bufferedReader
+//        try {
+//            bufferedReader.close();
+//        }catch (Exception ex){
+//            System.out.println(ex.getMessage());
+//        }
 
 
     }
