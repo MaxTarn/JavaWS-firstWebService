@@ -1,3 +1,6 @@
+//I know it is spelled 'message' instead of 'messege'
+// but I dont care
+
 package JavaClasses;
 
 import java.io.BufferedReader;
@@ -18,7 +21,7 @@ public class Server {
     String messege = null;
 
 
-
+    //initializes the sockets
     public void initSockets(int portNumber){
         //sets the port of the server, taken as argument
         try {
@@ -34,6 +37,8 @@ public class Server {
             System.out.println(ex.getMessage());
         }
     }
+
+    //initializes the communication
     public void initCommunication(){
 
         //opens two-way line of communication
@@ -62,6 +67,7 @@ public class Server {
 
     }
 
+    //sends messege from server, to client
     public void sendMessege(String sendThisString){
         try {
             bufferedWriter.write(sendThisString);
@@ -72,6 +78,7 @@ public class Server {
         }
     }
 
+    // closes all open readers / sockets/ writers
     public void close(){
 
         try {
