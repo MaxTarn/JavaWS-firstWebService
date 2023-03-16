@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getMessegeFromConsole() and now client and server can connect using only methods">
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added JSON package and added JSON file with some data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678909431280</updated>
       <workItem from="1678909432788" duration="12840000" />
-      <workItem from="1678953200336" duration="7133000" />
+      <workItem from="1678953200336" duration="8165000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -179,7 +178,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678960548793</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="removed 'public static void main' from 'Client.java' class">
+      <created>1678960642850</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960642850</updated>
+    </task>
+    <task id="LOCAL-00019" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
+      <created>1678960718926</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960718926</updated>
+    </task>
+    <task id="LOCAL-00020" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
+      <created>1678960803992</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960803992</updated>
+    </task>
+    <task id="LOCAL-00021" summary="added JSON package and added JSON file with some data">
+      <created>1678960995220</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960995220</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +241,9 @@
     <MESSAGE value="it should connect to server and function" />
     <MESSAGE value="removed empty line" />
     <MESSAGE value="added getMessegeFromConsole() and now client and server can connect using only methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getMessegeFromConsole() and now client and server can connect using only methods" />
+    <MESSAGE value="removed 'public static void main' from 'Client.java' class" />
+    <MESSAGE value="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive" />
+    <MESSAGE value="added JSON package and added JSON file with some data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JSON package and added JSON file with some data" />
   </component>
 </project>
