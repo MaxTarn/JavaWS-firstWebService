@@ -14,6 +14,11 @@ public class Client {
     BufferedWriter bufferedWriter = null;
     String messege = null;
 
+    //initializes the things needed
+    public void init(int portNumber){
+        initSockets(portNumber);
+        initCommunication();
+    }
     public void initSockets(int portNumber){
         try {
             socket = new Socket("localhost", portNumber);

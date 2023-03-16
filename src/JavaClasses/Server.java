@@ -20,6 +20,11 @@ public class Server {
     BufferedWriter bufferedWriter = null;
     String messege = null;
 
+    //initializes the things needed
+    public void init(int portNumber){
+        initSockets(portNumber);
+        initCommunication();
+    }
 
     //initializes the sockets
     public void initSockets(int portNumber){

@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added and made initSockets, initCommunication, getMessege, sendMessege methods">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed old code that is now in methods and is therefore unneeded">
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678909431280</updated>
       <workItem from="1678909432788" duration="12840000" />
-      <workItem from="1678953200336" duration="2634000" />
+      <workItem from="1678953200336" duration="3027000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -109,7 +108,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678955526037</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="added close() that closes all open readers/sockets/writers">
+      <created>1678955952730</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1678955952730</updated>
+    </task>
+    <task id="LOCAL-00009" summary="removed old code that is now in methods and is therefore unneeded">
+      <created>1678956091259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678956091259</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +147,8 @@
     <MESSAGE value="all .close() are now in a singele try-catch" />
     <MESSAGE value="added comments to clarify code" />
     <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
+    <MESSAGE value="added close() that closes all open readers/sockets/writers" />
+    <MESSAGE value="removed old code that is now in methods and is therefore unneeded" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed old code that is now in methods and is therefore unneeded" />
   </component>
 </project>
