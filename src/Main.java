@@ -18,6 +18,7 @@ public class Main {
 
         } while (!messege.equalsIgnoreCase("quit"));
 
+        //closes all open writers/ reader / sockets
         server.close();
     }
 }

@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed old code that is now in methods and is therefore unneeded">
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added init method that initializes ALL the things needed.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678909431280</updated>
       <workItem from="1678909432788" duration="12840000" />
-      <workItem from="1678953200336" duration="3027000" />
+      <workItem from="1678953200336" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -122,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678956091259</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added init method that initializes ALL the things needed.">
+      <created>1678956427820</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678956427820</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +156,7 @@
     <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
     <MESSAGE value="added close() that closes all open readers/sockets/writers" />
     <MESSAGE value="removed old code that is now in methods and is therefore unneeded" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed old code that is now in methods and is therefore unneeded" />
+    <MESSAGE value="added init method that initializes ALL the things needed." />
+    <option name="LAST_COMMIT_MESSAGE" value="added init method that initializes ALL the things needed." />
   </component>
 </project>
