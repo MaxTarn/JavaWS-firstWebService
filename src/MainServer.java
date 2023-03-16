@@ -1,5 +1,5 @@
 import JavaClasses.Server;
-public class Main {
+public class MainServer {
     public static void main(String[] args) {
 
         //creates a server object from the Server class
