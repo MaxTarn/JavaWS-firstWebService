@@ -1,11 +1,17 @@
 import JavaClasses.Server;
 public class Main {
     public static void main(String[] args) {
+
+        //creates a server object from the Server class
         Server server = new Server();
 
+        //initializes the server socket
         server.initSockets(6969);
+
+        //opens two-way communication between server and client
         server.initCommunication();
 
+        //will contain messege from client
         String messege = null;
         do {
             messege = server.getMessege();
