@@ -1,6 +1,5 @@
 import JavaClasses.Client;
 
-import java.util.Scanner;
 
 public class MainClient {
     public static void main(String[] args) {
@@ -9,12 +8,13 @@ public class MainClient {
         client.init(6969);
 
         String messege;
-        Scanner scan = new Scanner(System.in);
+
 
         do {
-            messege = scan.nextLine();
+            messege = client.getMessegeFromConsole();
             client.sendMessege(messege);
-        }while(messege.equalsIgnoreCase("quit"));
+            System.out.println(client.getMessege());
+        }while(!messege.equals("quit"));
 
         client.close();
 

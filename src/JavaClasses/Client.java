@@ -12,6 +12,7 @@ public class Client {
 
     OutputStreamWriter outputStreamWriter = null;
     BufferedWriter bufferedWriter = null;
+    Scanner scanner = null;
     String messege = null;
 
     //initializes the things needed
@@ -33,7 +34,7 @@ public class Client {
             bufferedReader = new BufferedReader(inputStreamReader);
             outputStreamWriter = new OutputStreamWriter(socket.getOutputStream());
             bufferedWriter = new BufferedWriter(outputStreamWriter);
-            Scanner scanner = new Scanner(System.in);
+            scanner = new Scanner(System.in);
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
@@ -47,6 +48,9 @@ public class Client {
             System.out.println(ex.getMessage());
             return null;
         }
+    }
+    public String getMessegeFromConsole(){
+        return scanner.nextLine();
     }
 
     public void sendMessege(String sendThis){
