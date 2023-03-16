@@ -14,7 +14,7 @@ public class MainClient {
             messege = client.getMessegeFromConsole();
             client.sendMessege(messege);
             System.out.println(client.getMessege());
-        }while(!messege.equals("quit"));
+        }while(!messege.equalsIgnoreCase("quit"));
 
         client.close();
 

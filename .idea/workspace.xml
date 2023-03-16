@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed empty line">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getMessegeFromConsole() and now client and server can connect using only methods">
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678909431280</updated>
       <workItem from="1678909432788" duration="12840000" />
-      <workItem from="1678953200336" duration="6764000" />
+      <workItem from="1678953200336" duration="7133000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -173,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678959939245</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added getMessegeFromConsole() and now client and server can connect using only methods">
+      <created>1678960548793</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678960548793</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,6 +213,7 @@
     <MESSAGE value="added 'public static void main'" />
     <MESSAGE value="it should connect to server and function" />
     <MESSAGE value="removed empty line" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed empty line" />
+    <MESSAGE value="added getMessegeFromConsole() and now client and server can connect using only methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getMessegeFromConsole() and now client and server can connect using only methods" />
   </component>
 </project>
