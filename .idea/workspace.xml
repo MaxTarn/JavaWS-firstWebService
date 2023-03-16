@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="all .close() are now in a singele try-catch">
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added and made initSockets, initCommunication, getMessege, sendMessege methods">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1678909431280</updated>
       <workItem from="1678909432788" duration="12840000" />
-      <workItem from="1678953200336" duration="366000" />
+      <workItem from="1678953200336" duration="2634000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -94,7 +95,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678923482025</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added comments to clarify code">
+      <created>1678953696666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678953696666</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added and made initSockets, initCommunication, getMessege, sendMessege methods">
+      <created>1678955526037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678955526037</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +132,8 @@
     <MESSAGE value="started moving code into methods in the Server.java class" />
     <MESSAGE value="started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java" />
     <MESSAGE value="all .close() are now in a singele try-catch" />
-    <option name="LAST_COMMIT_MESSAGE" value="all .close() are now in a singele try-catch" />
+    <MESSAGE value="added comments to clarify code" />
+    <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
   </component>
 </project>

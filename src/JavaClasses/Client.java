@@ -55,6 +55,20 @@ public class Client {
     }
 
 
+    // closes all open readers / sockets/ writers
+    public void close(){
+        try{
+            socket.close() ;
+            inputStreamReader.close();
+            bufferedReader.close();
+            outputStreamWriter.close();
+            bufferedWriter.close();
+        }catch (Exception ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+
+
 
     public static void main(String[] args) {
 
