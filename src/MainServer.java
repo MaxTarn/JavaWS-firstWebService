@@ -12,7 +12,7 @@ public class MainServer {
         server.initCommunication();
 
         //will contain messege from client
-        String messege = null;
+        String messege;
         do {
             messege = server.getMessege();
 
