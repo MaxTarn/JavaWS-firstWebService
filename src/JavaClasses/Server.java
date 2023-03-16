@@ -54,6 +54,8 @@ public class Server {
 
     //returns the message, null when there isn't one available
     public String getMessege(){
+
+
         try {
             messege = bufferedReader.readLine();
             System.out.println("client: " + messege);
@@ -65,10 +67,13 @@ public class Server {
             return null;
         }
 
+
     }
 
     //sends messege from server, to client
     public void sendMessege(String sendThisString){
+
+
         try {
             bufferedWriter.write(sendThisString);
             bufferedWriter.newLine();
@@ -76,6 +81,8 @@ public class Server {
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
+
+
     }
 
     // closes all open readers / sockets/ writers
@@ -93,101 +100,7 @@ public class Server {
             System.out.println(ex.getMessage());
         }
 
-//        //closes the socket
-//        try {
-//            socket.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-//
-//        //closes the serverSocket
-//        try{
-//            serverSocket.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-//
-//        //closes the inputStreamReader
-//        try {
-//            inputStreamReader.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-//
-//        //closes the outputStreamWriter
-//        try {
-//            outputStreamWriter.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-//
-//        //closes the bufferedWriter
-//        try {
-//            bufferedWriter.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-//
-//        //closes the bufferedReader
-//        try {
-//            bufferedReader.close();
-//        }catch (Exception ex){
-//            System.out.println(ex.getMessage());
-//        }
-
 
     }
 
-
-//    public static void main(String[] args){
-//        Socket socket ;
-//        ServerSocket serverSocket = null;
-//        InputStreamReader inputStreamReader ;
-//        BufferedReader bufferedReader ;
-//
-//        OutputStreamWriter outputStreamWriter ;
-//        BufferedWriter bufferedWriter ;
-//
-//
-//
-//        try {
-//            serverSocket = new ServerSocket(6969);
-//        }catch (Exception ex){
-//            System.out.println(ex);
-//        }
-//
-//        while (true){
-//            try {
-//                socket = serverSocket.accept();
-//
-//                inputStreamReader = new InputStreamReader(socket.getInputStream());
-//                outputStreamWriter = new OutputStreamWriter(socket.getOutputStream());
-//                bufferedReader = new BufferedReader(inputStreamReader);
-//                bufferedWriter = new BufferedWriter(outputStreamWriter);
-//
-//
-//                while (true){
-//                    String messege = bufferedReader.readLine();
-//                    System.out.println("client: " + messege);
-//
-//                    bufferedWriter.write("Messege received.");
-//                    bufferedWriter.newLine();
-//                    bufferedWriter.flush();
-//
-//                    if (messege.equalsIgnoreCase("quit")){
-//                        break;
-//                    }
-//                }
-//                socket.close();
-//                inputStreamReader.close();
-//                outputStreamWriter.close();
-//                bufferedWriter.close();
-//                bufferedReader.close();
-//
-//
-//            }catch (Exception ex){
-//                System.out.println(ex);
-//            }
-//        }
-//    }
 }
