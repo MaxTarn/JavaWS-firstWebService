@@ -1,4 +1,7 @@
 import JavaClasses.Server;
+
+import java.util.Objects;
+
 public class MainServer {
     public static void main(String[] args) {
 
@@ -16,7 +19,6 @@ public class MainServer {
         do {
             messege = server.getMessege();
 
-        } while (!messege.equalsIgnoreCase("quit"));
 
         //closes all open writers/ reader / sockets
         server.close();

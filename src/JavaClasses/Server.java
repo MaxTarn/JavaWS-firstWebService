@@ -64,7 +64,6 @@ public class Server {
         try {
             messege = bufferedReader.readLine();
             System.out.println("client: " + messege);
-
             sendMessege("Messege received.");
             return messege;
         }catch (Exception ex){
