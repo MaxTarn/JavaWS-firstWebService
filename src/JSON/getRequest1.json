@@ -1,0 +1,36 @@
+{
+  "Person1":{
+    "firstName": "Bilbo",
+    "lastName": "Baggins",
+    "age": "50",
+    "gender" : "male",
+    "Features": {
+      "hair": "brown",
+      "eyes": "blue",
+      "nose": "large"
+    }
+
+  },"Person2":{
+    "firstName": "Smaug",
+    "lastName": "Dragon",
+    "age": "1000",
+    "gender" : "dragon",
+    "Features": {
+      "hair": "none",
+      "eyes": "red",
+      "nose": "gigantic"
+    }
+
+  },"Person3":{
+    "firstName": "Grogu",
+    "lastName": "Baby Yoda",
+    "age": "50",
+    "gender" : "unknown",
+    "Features": {
+      "hair": "sparse",
+      "eyes": "dark brown",
+      "nose": "small"
+    }
+
+  }
+}
