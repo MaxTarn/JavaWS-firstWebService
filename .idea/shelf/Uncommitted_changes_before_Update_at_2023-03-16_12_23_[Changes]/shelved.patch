@@ -1,0 +1,76 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"f85c8572-d6c1-4520-a4ea-96b2e055a5ef\" name=\"Changes\" comment=\"all .close() are now in a singele try-catch\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/JavaClasses/Server.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/JavaClasses/Server.java\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2N43G0C4nXMoZSK85fpymaOhfK0\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"project.structure.last.edited\": \"Project\",\r\n    \"project.structure.proportion\": \"0.15\",\r\n    \"project.structure.side.proportion\": \"0.0\",\r\n    \"settings.editor.selected.configurable\": \"preferences.keymap\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"f85c8572-d6c1-4520-a4ea-96b2e055a5ef\" name=\"Changes\" comment=\"\" />\r\n      <created>1678909431280</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678909431280</updated>\r\n      <workItem from=\"1678909432788\" duration=\"12840000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"made file structure, and map structure\">\r\n      <created>1678909621082</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678909621082</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"functional server and functional client\">\r\n      <created>1678916972966</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678916972966</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java\">\r\n      <created>1678921847863</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678921847863</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"all .close() are now in a singele try-catch\">\r\n      <created>1678922915579</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678922915579</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"all .close() are now in a singele try-catch\">\r\n      <created>1678923482025</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678923482025</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"6\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"made file structure, and map structure\" />\r\n    <MESSAGE value=\"functional server and functional client\" />\r\n    <MESSAGE value=\"started moving code into methods in the Server.java class\" />\r\n    <MESSAGE value=\"started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java\" />\r\n    <MESSAGE value=\"all .close() are now in a singele try-catch\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"all .close() are now in a singele try-catch\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 726b702b253927a5de66b68ae0a4f791e956f91a)
++++ b/.idea/workspace.xml	(date 1678923957572)
+@@ -4,9 +4,8 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="all .close() are now in a singele try-catch">
++    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added some comments, and a disclaimer">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Server.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -23,6 +22,19 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
++  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
++  "lastFilter": {
++    "state": "OPEN"
++  }
++}]]></component>
++  <component name="GithubPullRequestsUISettings">
++    <option name="selectedUrlAndAccountId">
++      <UrlAndAccount>
++        <option name="accountId" value="5fe3e43a-6c63-432b-bb82-63c308f6a5aa" />
++        <option name="url" value="https://github.com/MaxTarn/JavaWS-firstWebService.git" />
++      </UrlAndAccount>
++    </option>
++  </component>
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+@@ -57,7 +69,7 @@
+       <option name="number" value="Default" />
+       <option name="presentableId" value="Default" />
+       <updated>1678909431280</updated>
+-      <workItem from="1678909432788" duration="12840000" />
++      <workItem from="1678909432788" duration="13104000" />
+     </task>
+     <task id="LOCAL-00001" summary="made file structure, and map structure">
+       <created>1678909621082</created>
+@@ -94,7 +106,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1678923482025</updated>
+     </task>
+-    <option name="localTasksCounter" value="6" />
++    <task id="LOCAL-00006" summary="added some comments, and a disclaimer">
++      <created>1678923876006</created>
++      <option name="number" value="00006" />
++      <option name="presentableId" value="LOCAL-00006" />
++      <option name="project" value="LOCAL" />
++      <updated>1678923876006</updated>
++    </task>
++    <option name="localTasksCounter" value="7" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -117,6 +136,7 @@
+     <MESSAGE value="started moving code into methods in the Server.java class" />
+     <MESSAGE value="started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java" />
+     <MESSAGE value="all .close() are now in a singele try-catch" />
+-    <option name="LAST_COMMIT_MESSAGE" value="all .close() are now in a singele try-catch" />
++    <MESSAGE value="added some comments, and a disclaimer" />
++    <option name="LAST_COMMIT_MESSAGE" value="added some comments, and a disclaimer" />
+   </component>
+ </project>
+\ No newline at end of file
