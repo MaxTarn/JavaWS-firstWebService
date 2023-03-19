@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added Main.java to test code snippets">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="creates new Json object, tests file location of person1, prints out the string from person1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +166,7 @@
       <workItem from="1678909432788" duration="12840000" />
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
-      <workItem from="1679244555722" duration="12623000" />
+      <workItem from="1679244555722" duration="14732000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -365,7 +364,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679265065221</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="changed path to the correct path">
+      <created>1679266644736</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679266644736</updated>
+    </task>
+    <task id="LOCAL-00030" summary="improved getStringFromFile()">
+      <created>1679266676831</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679266676831</updated>
+    </task>
+    <task id="LOCAL-00031" summary="creates new Json object, tests file location of person1, prints out the string from person1">
+      <created>1679266742939</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679266742939</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,9 +403,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="started moving code into methods in the Server.java class" />
-    <MESSAGE value="started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java" />
-    <MESSAGE value="all .close() are now in a singele try-catch" />
     <MESSAGE value="added comments to clarify code" />
     <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
     <MESSAGE value="added close() that closes all open readers/sockets/writers" />
@@ -408,7 +425,10 @@
     <MESSAGE value="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()" />
     <MESSAGE value="added location of the JSON files in variables" />
     <MESSAGE value="added Main.java to test code snippets" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Main.java to test code snippets" />
+    <MESSAGE value="changed path to the correct path" />
+    <MESSAGE value="improved getStringFromFile()" />
+    <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
+    <option name="LAST_COMMIT_MESSAGE" value="creates new Json object, tests file location of person1, prints out the string from person1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

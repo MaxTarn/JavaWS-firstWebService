@@ -1,5 +1,8 @@
 package JavaClasses;
 
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+
 import java.io.*;
 
 public class Json {
@@ -57,5 +60,10 @@ public class Json {
             System.out.println(ex.getMessage());
         }
         return null;
+    }
+
+    public void convertToJson(String jsonString){
+
+
     }
 }
