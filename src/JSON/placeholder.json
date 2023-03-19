@@ -1,0 +1,17 @@
+{
+  "Person1": {
+    "firstName": "",
+    "lastName": "",
+    "age": "",
+    "species": "",
+    "gender": "",
+    "Features": {
+      "hair": "",
+      "eyes": "",
+      "nose": ""
+    }
+  }
+}
+
+
+
