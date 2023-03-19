@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="initializes server object with init() instead of initSockets() and initCommunication()">
-      <change afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   },
@@ -165,7 +167,7 @@
       <workItem from="1678909432788" duration="12840000" />
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
-      <workItem from="1679244555722" duration="9472000" />
+      <workItem from="1679244555722" duration="10581000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -342,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679257317663</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()">
+      <created>1679263477491</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1679263477491</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -384,7 +393,8 @@
     <MESSAGE value="split getRequest1.json into three JSON files, added species value to all the JSON files" />
     <MESSAGE value="added placeholder.json,contains all the structure and no data" />
     <MESSAGE value="initializes server object with init() instead of initSockets() and initCommunication()" />
-    <option name="LAST_COMMIT_MESSAGE" value="initializes server object with init() instead of initSockets() and initCommunication()" />
+    <MESSAGE value="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
