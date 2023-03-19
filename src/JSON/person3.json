@@ -1,0 +1,14 @@
+{
+  "Person3": {
+    "firstName": "Grogu",
+    "lastName": null,
+    "age": "50",
+    "species": "baby yoda",
+    "gender": "unknown",
+    "Features": {
+      "hair": "sparse",
+      "eyes": "dark brown",
+      "nose": "small"
+    }
+  }
+}
