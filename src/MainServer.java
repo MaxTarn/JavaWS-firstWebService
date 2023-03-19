@@ -7,11 +7,8 @@ public class MainServer {
         //creates a server object from the Server class
         Server server = new Server();
 
-        //initializes the server socket
-        server.initSockets(6969);
-
-        //opens two-way communication between server and client
-        server.initCommunication();
+        //initiates server object
+        server.init(6969);
 
         //will contain messege from client
         String messege;

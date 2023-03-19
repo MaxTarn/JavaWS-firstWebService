@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="split getRequest1.json into three JSON files, added species value to all the JSON files">
-      <change afterPath="$PROJECT_DIR$/src/JSON/placeholder.json" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added placeholder.json,contains all the structure and no data">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2N43G0C4nXMoZSK85fpymaOhfK0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -162,7 +165,7 @@
       <workItem from="1678909432788" duration="12840000" />
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
-      <workItem from="1679244555722" duration="1754000" />
+      <workItem from="1679244555722" duration="3652000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -325,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679245373771</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added placeholder.json,contains all the structure and no data">
+      <created>1679246395672</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1679246395672</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,6 +375,7 @@
     <MESSAGE value="added JSON package and added JSON file with some data" />
     <MESSAGE value="added more data to JSON file" />
     <MESSAGE value="split getRequest1.json into three JSON files, added species value to all the JSON files" />
-    <option name="LAST_COMMIT_MESSAGE" value="split getRequest1.json into three JSON files, added species value to all the JSON files" />
+    <MESSAGE value="added placeholder.json,contains all the structure and no data" />
+    <option name="LAST_COMMIT_MESSAGE" value="added placeholder.json,contains all the structure and no data" />
   </component>
 </project>
