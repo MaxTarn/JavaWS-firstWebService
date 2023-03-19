@@ -3,9 +3,9 @@ package JavaClasses;
 import java.io.*;
 
 public class Json {
-    final String person1Path= "JSON/person1.json";
-    final String person3Path= "JSON/person3.json";
-    final String person2Path= "JSON/person2.json";
+    final String person1Path= "src/JSON/person1.json";
+    final String person3Path= "src/JSON/person3.json";
+    final String person2Path= "src/JSON/person2.json";
 
     public String getPerson1Path() {
         return person1Path;
