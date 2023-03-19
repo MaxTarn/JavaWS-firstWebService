@@ -44,20 +44,18 @@ public class Json {
             if(fileExists(filePath)){
                 FileReader path = new FileReader(filePath);
                 BufferedReader reader = new BufferedReader(path);
-                StringBuilder content  = null;
+                String content  = null;
                 String temp;
 
                 while(  (temp = reader.readLine())  !=   null  ){
-                    assert false;
-                    content.append(temp);
+                    content += temp;
                 }
-
-                System.out.println(content);
+                return content;
 
             }
-            return null;
         }catch (Exception ex){
-            return null;
+            System.out.println(ex.getMessage());
         }
+        return null;
     }
 }
