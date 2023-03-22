@@ -49,7 +49,7 @@ public class Client {
             return null;
         }
     }
-    public String getMessegeFromConsole(){
+    public String getInput(){
         return scanner.nextLine();
     }
 
