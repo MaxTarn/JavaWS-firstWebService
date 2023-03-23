@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getters for the global variables in Client.java">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +85,27 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.All in JavaWS-firstWebService">
+  <component name="RunManager" selected="JUnit.ClientTest.initSocket">
     <configuration name="All in JavaWS-firstWebService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest.initSocket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWS-firstWebService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.ClientTest" />
+      <option name="METHOD_NAME" value="initSocket" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,6 +191,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientTest.initSocket" />
         <item itemvalue="JUnit.All in JavaWS-firstWebService" />
       </list>
     </recent_temporary>
@@ -192,7 +208,7 @@
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
-      <workItem from="1679565369110" duration="4793000" />
+      <workItem from="1679565369110" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -453,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679567805061</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown">
+      <created>1679574776191</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679574776191</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -471,7 +494,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed Main to MainServer and added MainClient file" />
     <MESSAGE value="removed unneeded assignment to null" />
     <MESSAGE value="added 'public static void main'" />
     <MESSAGE value="it should connect to server and function" />
@@ -496,7 +518,8 @@
     <MESSAGE value="added Test file for Client.java" />
     <MESSAGE value="junit.jupiter background file" />
     <MESSAGE value="added getters for the global variables in Client.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getters for the global variables in Client.java" />
+    <MESSAGE value="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown" />
+    <option name="LAST_COMMIT_MESSAGE" value="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -504,5 +527,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaWS_firstWebService$All_in_JavaWS_firstWebService.ic" NAME="All in JavaWS-firstWebService Coverage Results" MODIFIED="1679568421956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientTest_initSocket.ic" NAME="ClientTest.initSocket Coverage Results" MODIFIED="1679576845595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
