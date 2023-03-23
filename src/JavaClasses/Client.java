@@ -39,9 +39,15 @@ public class Client {
     }
 
     //initializes the things needed
-    public void init(int portNumber){
-        initSockets(portNumber);
-        initCommunication();
+    public boolean init(int portNumber){
+        try {
+            initSockets(portNumber);
+            initCommunication();
+        }catch (Exception ex){
+            return false;
+        }
+
+        return true;
     }
     public void initSockets(int portNumber){
         try {

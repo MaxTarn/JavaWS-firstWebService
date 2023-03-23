@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added Test file for Client.java">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getters for the global variables in Client.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWS-firstWebService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWS-firstWebService.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,15 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in JavaWS-firstWebService">
+    <configuration name="All in JavaWS-firstWebService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaWS-firstWebService" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -167,6 +174,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in JavaWS-firstWebService" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -180,7 +192,7 @@
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
-      <workItem from="1679565369110" duration="2292000" />
+      <workItem from="1679565369110" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -427,7 +439,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679567365427</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="junit.jupiter background file">
+      <created>1679567710982</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1679567710982</updated>
+    </task>
+    <task id="LOCAL-00037" summary="added getters for the global variables in Client.java">
+      <created>1679567805061</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679567805061</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,8 +471,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added init method that initializes ALL the things needed." />
-    <MESSAGE value="added comment to clarify code" />
     <MESSAGE value="changed Main to MainServer and added MainClient file" />
     <MESSAGE value="removed unneeded assignment to null" />
     <MESSAGE value="added 'public static void main'" />
@@ -470,10 +494,15 @@
     <MESSAGE value="changed name of getMessegeFromConsole() to getInput()" />
     <MESSAGE value="added &quot;method&quot;, &quot;content&quot;, &quot;parameters&quot; as fields" />
     <MESSAGE value="added Test file for Client.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Test file for Client.java" />
+    <MESSAGE value="junit.jupiter background file" />
+    <MESSAGE value="added getters for the global variables in Client.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getters for the global variables in Client.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$All_in_JavaWS_firstWebService.ic" NAME="All in JavaWS-firstWebService Coverage Results" MODIFIED="1679568421956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
