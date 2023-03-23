@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added a primary key, 'id'">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-16_12_23__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-16_12_23__Changes_.xml" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added Test file for Client.java">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWS-firstWebService.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWS-firstWebService.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -71,7 +74,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -177,6 +180,7 @@
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
+      <workItem from="1679565369110" duration="2292000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -402,7 +406,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679481557989</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="changed name of getMessegeFromConsole() to getInput()">
+      <created>1679482825973</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1679482825973</updated>
+    </task>
+    <task id="LOCAL-00034" summary="added &quot;method&quot;, &quot;content&quot;, &quot;parameters&quot; as fields">
+      <created>1679567207067</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1679567207067</updated>
+    </task>
+    <task id="LOCAL-00035" summary="added Test file for Client.java">
+      <created>1679567365427</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1679567365427</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,9 +445,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
-    <MESSAGE value="added close() that closes all open readers/sockets/writers" />
-    <MESSAGE value="removed old code that is now in methods and is therefore unneeded" />
     <MESSAGE value="added init method that initializes ALL the things needed." />
     <MESSAGE value="added comment to clarify code" />
     <MESSAGE value="changed Main to MainServer and added MainClient file" />
@@ -445,7 +467,10 @@
     <MESSAGE value="improved getStringFromFile()" />
     <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
     <MESSAGE value="added a primary key, 'id'" />
-    <option name="LAST_COMMIT_MESSAGE" value="added a primary key, 'id'" />
+    <MESSAGE value="changed name of getMessegeFromConsole() to getInput()" />
+    <MESSAGE value="added &quot;method&quot;, &quot;content&quot;, &quot;parameters&quot; as fields" />
+    <MESSAGE value="added Test file for Client.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Test file for Client.java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

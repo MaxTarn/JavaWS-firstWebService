@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Client {
     Socket socket = null;
-
     InputStreamReader inputStreamReader = null;
     BufferedReader bufferedReader = null;
 
@@ -14,6 +13,30 @@ public class Client {
     BufferedWriter bufferedWriter = null;
     Scanner scanner = null;
     String messege = null;
+
+    public Socket getSocket() {
+        return socket;
+    }
+
+    public InputStreamReader getInputStreamReader() {
+        return inputStreamReader;
+    }
+
+    public BufferedReader getBufferedReader() {
+        return bufferedReader;
+    }
+
+    public OutputStreamWriter getOutputStreamWriter() {
+        return outputStreamWriter;
+    }
+
+    public BufferedWriter getBufferedWriter() {
+        return bufferedWriter;
+    }
+
+    public Scanner getScanner() {
+        return scanner;
+    }
 
     //initializes the things needed
     public void init(int portNumber){
