@@ -1,4 +1,7 @@
 {
+  "method": "GET",
+  "content": "application/json",
+  "parameters": "",
   "Person1": {
     "firstName": "",
     "lastName": "",
