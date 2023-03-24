@@ -2,6 +2,7 @@ package JavaClasses;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 
 import java.io.*;
 
@@ -49,8 +50,15 @@ public class Json {
         return null;
     }
 
-    public void convertToJson(String jsonString){
-
+    public JSONObject convertToJson(String jsonString){
+        JSONParser parser = new JSONParser();
+        Object obj = null;
+        try {
+            obj = parser.parse(jsonString);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+        return (JSONObject) obj;
 
     }
 }
