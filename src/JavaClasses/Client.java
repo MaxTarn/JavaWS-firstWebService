@@ -101,6 +101,7 @@ public class Client {
             bufferedReader.close();
             outputStreamWriter.close();
             bufferedWriter.close();
+            scanner.close();
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added reset() that sets all readers / writers/ socket/ scanner to null">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="close() now also closes 'scanner'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -476,7 +475,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679648864143</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="tests init() , initCommunication() , initSockets(), added method to check if readers/writers/scanner/socket is not null">
+      <created>1679649829258</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1679649829258</updated>
+    </task>
+    <task id="LOCAL-00038" summary="reset() closes all open writers/readers/socket/scanner, before setting them to null">
+      <created>1679649871710</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1679649871710</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,9 +507,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added init method that initializes ALL the things needed." />
-    <MESSAGE value="added comment to clarify code" />
-    <MESSAGE value="changed Main to MainServer and added MainClient file" />
     <MESSAGE value="removed unneeded assignment to null" />
     <MESSAGE value="added 'public static void main'" />
     <MESSAGE value="it should connect to server and function" />
@@ -519,7 +529,10 @@
     <MESSAGE value="added 'method' , 'content', and 'parameters'" />
     <MESSAGE value="testing a good port, that should be available" />
     <MESSAGE value="added reset() that sets all readers / writers/ socket/ scanner to null" />
-    <option name="LAST_COMMIT_MESSAGE" value="added reset() that sets all readers / writers/ socket/ scanner to null" />
+    <MESSAGE value="tests init() , initCommunication() , initSockets(), added method to check if readers/writers/scanner/socket is not null" />
+    <MESSAGE value="reset() closes all open writers/readers/socket/scanner, before setting them to null" />
+    <MESSAGE value="close() now also closes 'scanner'" />
+    <option name="LAST_COMMIT_MESSAGE" value="close() now also closes 'scanner'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
