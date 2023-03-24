@@ -1,5 +1,5 @@
 //I know it is spelled 'message' instead of 'messege'
-// but I dont care
+// but I don't care
 
 package JavaClasses;
 
