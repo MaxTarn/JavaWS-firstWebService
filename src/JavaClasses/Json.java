@@ -29,21 +29,25 @@ public class Json {
         return path.exists();
     }
 
+    //reads the file at the given path and returns file content as a String
     public String getStringFromFile(String filePath){
 
+        if (!fileExists(filePath)){
+            return null;
+        }
         try {
-            if(fileExists(filePath)){
-                FileReader path = new FileReader(filePath);
-                BufferedReader reader = new BufferedReader(path);
-                String content  = null;
-                String temp;
+            FileReader path = new FileReader(filePath);
+            BufferedReader reader = new BufferedReader(path);
+            StringBuilder content  = new StringBuilder();
+            String temp;
 
-                while(  (temp = reader.readLine())  !=   null  ){
-                    content += temp;
-                }
-                return content;
+            do {
+                temp = reader.readLine();
+                if(temp != null) content.append(temp);
 
-            }
+            }while(temp != null);
+
+            return content.toString();
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
