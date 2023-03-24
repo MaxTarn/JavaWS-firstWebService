@@ -39,15 +39,13 @@ public class Client {
     }
 
     //initializes the things needed
-    public boolean init(int portNumber){
+    public void init(int portNumber){
         try {
             initSockets(portNumber);
             initCommunication();
         }catch (Exception ex){
-            return false;
+            System.out.println(ex.getMessage());
         }
-
-        return true;
     }
     public void initSockets(int portNumber){
         try {
