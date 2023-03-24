@@ -107,6 +107,7 @@ public class Client {
     }
 
     public void reset(){
+        this.close();
         socket = null;
         inputStreamReader = null;
         bufferedReader = null;
