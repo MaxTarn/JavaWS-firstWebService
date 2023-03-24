@@ -96,7 +96,7 @@ public class Client {
     // closes all open readers / sockets/ writers
     public void close(){
         try{
-            socket.close() ;
+            socket.close();
             inputStreamReader.close();
             bufferedReader.close();
             outputStreamWriter.close();
@@ -104,6 +104,15 @@ public class Client {
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
+    }
+
+    public void reset(){
+        socket = null;
+        inputStreamReader = null;
+        bufferedReader = null;
+        outputStreamWriter = null;
+        bufferedWriter = null;
+        scanner = null;
     }
 
 }
