@@ -17,12 +17,29 @@ public class ClientTest {
         System.out.println("after test");
     }
 
+    void testClient(Client client, int portNumber){
+        assertNotNull(client.getInputStreamReader());
+        assertNotNull(client.getBufferedReader());
+        assertNotNull(client.getOutputStreamWriter());
+        assertNotNull(client.getBufferedWriter());
+        assertNotNull(client.getScanner());
+        assertNotNull(client.getSocket());
+        assertEquals(client.getSocket().getPort(), portNumber);
+    }
+
     @Test
-    void initSockets(){
+    void init(){
         Client client = new Client();
         client.initSockets(6969);
-        assertNotEquals(client.getSocket(), null);
-        assertEquals(client.getSocket().getPort(), 6969);
+        client.initCommunication();
+
+        testClient(client, 6969);
+
+        client.reset();
+
+        client.init(6969);
+
+        testClient(client, 6969);
     }
 
 
