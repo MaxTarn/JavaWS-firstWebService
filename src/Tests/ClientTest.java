@@ -18,15 +18,11 @@ public class ClientTest {
     }
 
     @Test
-    void initSocket(){
-        int[] goodPortNumbers = {6969,8080,32000};
-        int[] badPortNumbers = {1,1000, -1,999999999};
-
-        for (int i = 0; i < goodPortNumbers.length; i++) {
-            Client client = new Client();
-            client.initSockets(goodPortNumbers[i]);
-            assertEquals(client.getSocket().getPort(), i);
-        }
+    void initSockets(){
+        Client client = new Client();
+        client.initSockets(6969);
+        assertNotEquals(client.getSocket(), null);
+        assertEquals(client.getSocket().getPort(), 6969);
     }
 
 
