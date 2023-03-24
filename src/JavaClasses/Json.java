@@ -14,27 +14,14 @@ public class Json {
         return person1Path;
     }
 
-    public void setPerson1Path(String person1Path) throws Exception {
-        throw new Exception("You can't change the path of the JSON files");
-    }
-
-
     public String getPerson2Path() {
         return person2Path;
     }
-
-    public void setPerson2Path(String person2Path) throws Exception {
-        throw new Exception("You can't change the path of the JSON files");
-    }
-
 
     public String getPerson3Path() {
         return person3Path;
     }
 
-    public void setPerson3Path(String person3Path) throws Exception {
-        throw new Exception("You can't change the path of the JSON files");
-    }
 
     public boolean fileExists(String filePath){
         File path = new File(filePath);

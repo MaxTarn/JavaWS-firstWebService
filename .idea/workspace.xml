@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="spelling mistake">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed setPersonPath() for person 1 &amp; 2 &amp; 3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/CodingStuff/Dependencies/json-simple-1.1.1.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/CodingStuff/Dependencies/json-simple-1.1.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSP"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSP&quot;
     ]
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.ClientAndServerTest.communication">
+}</component>
+  <component name="RunManager">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
@@ -238,6 +238,7 @@
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
+      <workItem from="1679674994723" duration="1850000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -526,7 +527,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679650609728</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="communication() tests the communication between Server and Client , not working at the moment">
+      <created>1679651664573</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1679651664573</updated>
+    </task>
+    <task id="LOCAL-00043" summary="background files">
+      <created>1679651689789</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1679651689789</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -544,8 +559,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="it should connect to server and function" />
-    <MESSAGE value="removed empty line" />
     <MESSAGE value="added getMessegeFromConsole() and now client and server can connect using only methods" />
     <MESSAGE value="removed 'public static void main' from 'Client.java' class" />
     <MESSAGE value="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive" />
@@ -560,7 +573,6 @@
     <MESSAGE value="changed path to the correct path" />
     <MESSAGE value="improved getStringFromFile()" />
     <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
-    <MESSAGE value="background files" />
     <MESSAGE value="added 'method' , 'content', and 'parameters'" />
     <MESSAGE value="testing a good port, that should be available" />
     <MESSAGE value="added reset() that sets all readers / writers/ socket/ scanner to null" />
@@ -569,7 +581,10 @@
     <MESSAGE value="close() now also closes 'scanner'" />
     <MESSAGE value="init() no longer returns bool" />
     <MESSAGE value="spelling mistake" />
-    <option name="LAST_COMMIT_MESSAGE" value="spelling mistake" />
+    <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
+    <MESSAGE value="background files" />
+    <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
