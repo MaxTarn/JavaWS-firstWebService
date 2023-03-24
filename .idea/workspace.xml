@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="creates new Json object, tests file location of person1, prints out the string from person1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,13 +37,6 @@
       </UrlAndAccount>
     </option>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -58,21 +51,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/CodeStuff/json-simple-1.1.1.jar",
+    "last_opened_file_path": "C:/CodingStuff/Dependencies/json-simple-1.1.1.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.code.analysis.last.selected.profile": "pProject Default",
@@ -85,31 +74,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ClientTest.initSocket">
-    <configuration name="All in JavaWS-firstWebService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWS-firstWebService" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientTest.initSocket" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaWS-firstWebService" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.ClientTest" />
-      <option name="METHOD_NAME" value="initSocket" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Tomcat 10.0.27" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.0.27" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -189,12 +154,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ClientTest.initSocket" />
-        <item itemvalue="JUnit.All in JavaWS-firstWebService" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -208,7 +167,6 @@
       <workItem from="1678953200336" duration="8165000" />
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
-      <workItem from="1679565369110" duration="7328000" />
     </task>
     <task id="LOCAL-00001" summary="made file structure, and map structure">
       <created>1678909621082</created>
@@ -427,56 +385,7 @@
       <option name="project" value="LOCAL" />
       <updated>1679266742939</updated>
     </task>
-    <task id="LOCAL-00032" summary="added a primary key, 'id'">
-      <created>1679481557989</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1679481557989</updated>
-    </task>
-    <task id="LOCAL-00033" summary="changed name of getMessegeFromConsole() to getInput()">
-      <created>1679482825973</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1679482825973</updated>
-    </task>
-    <task id="LOCAL-00034" summary="added &quot;method&quot;, &quot;content&quot;, &quot;parameters&quot; as fields">
-      <created>1679567207067</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1679567207067</updated>
-    </task>
-    <task id="LOCAL-00035" summary="added Test file for Client.java">
-      <created>1679567365427</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1679567365427</updated>
-    </task>
-    <task id="LOCAL-00036" summary="junit.jupiter background file">
-      <created>1679567710982</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1679567710982</updated>
-    </task>
-    <task id="LOCAL-00037" summary="added getters for the global variables in Client.java">
-      <created>1679567805061</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1679567805061</updated>
-    </task>
-    <task id="LOCAL-00038" summary="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown">
-      <created>1679574776191</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1679574776191</updated>
-    </task>
-    <option name="localTasksCounter" value="39" />
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,6 +403,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="added comments to clarify code" />
+    <MESSAGE value="added and made initSockets, initCommunication, getMessege, sendMessege methods" />
+    <MESSAGE value="added close() that closes all open readers/sockets/writers" />
+    <MESSAGE value="removed old code that is now in methods and is therefore unneeded" />
+    <MESSAGE value="added init method that initializes ALL the things needed." />
+    <MESSAGE value="added comment to clarify code" />
+    <MESSAGE value="changed Main to MainServer and added MainClient file" />
     <MESSAGE value="removed unneeded assignment to null" />
     <MESSAGE value="added 'public static void main'" />
     <MESSAGE value="it should connect to server and function" />
@@ -512,23 +428,10 @@
     <MESSAGE value="changed path to the correct path" />
     <MESSAGE value="improved getStringFromFile()" />
     <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
-    <MESSAGE value="added a primary key, 'id'" />
-    <MESSAGE value="changed name of getMessegeFromConsole() to getInput()" />
-    <MESSAGE value="added &quot;method&quot;, &quot;content&quot;, &quot;parameters&quot; as fields" />
-    <MESSAGE value="added Test file for Client.java" />
-    <MESSAGE value="junit.jupiter background file" />
-    <MESSAGE value="added getters for the global variables in Client.java" />
-    <MESSAGE value="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown" />
-    <option name="LAST_COMMIT_MESSAGE" value="init() returns true when no Exceptions are thrown, and false when Exceptions are thrown" />
+    <option name="LAST_COMMIT_MESSAGE" value="creates new Json object, tests file location of person1, prints out the string from person1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$All_in_JavaWS_firstWebService.ic" NAME="All in JavaWS-firstWebService Coverage Results" MODIFIED="1679568421956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientTest_initSocket.ic" NAME="ClientTest.initSocket Coverage Results" MODIFIED="1679576845595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>Tests.*</FILTER>
-    </SUITE>
   </component>
 </project>
