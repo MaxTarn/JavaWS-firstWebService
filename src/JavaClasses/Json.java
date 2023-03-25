@@ -70,4 +70,8 @@ public class Json {
         return (JSONObject) obj;
 
     }
+
+    public JSONObject getJsonFromFile(String filePath){
+        return convertToJson(getStringFromFile(filePath));
+    }
 }
