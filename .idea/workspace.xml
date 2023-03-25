@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="Main.java now reads from local file and coverts it to a JSON object">
-      <change beforePath="$PROJECT_DIR$/src/JSON/person1.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/person1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/person2.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/person2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/person3.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/person3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/placeholder.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/placeholder.json" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getJsonFromFile() that returns JSONObject made from local file">
+      <change afterPath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,21 +242,7 @@
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
-      <workItem from="1679780440133" duration="416000" />
-    </task>
-    <task id="LOCAL-00001" summary="made file structure, and map structure">
-      <created>1678909621082</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678909621082</updated>
-    </task>
-    <task id="LOCAL-00002" summary="functional server and functional client">
-      <created>1678916972966</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1678916972966</updated>
+      <workItem from="1679780440133" duration="6950000" />
     </task>
     <task id="LOCAL-00003" summary="started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java">
       <created>1678921847863</created>
@@ -579,7 +566,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679780761264</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="removed the method from the JSON files, it shouldn't have been there">
+      <created>1679780926337</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1679780926337</updated>
+    </task>
+    <task id="LOCAL-00050" summary="JSON paths are in an array, instead of variable">
+      <created>1679782189450</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1679782189450</updated>
+    </task>
+    <task id="LOCAL-00051" summary="added getJsonFromFile() that returns JSONObject made from local file">
+      <created>1679784409238</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1679784409238</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -597,9 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added more data to JSON file" />
-    <MESSAGE value="split getRequest1.json into three JSON files, added species value to all the JSON files" />
-    <MESSAGE value="added placeholder.json,contains all the structure and no data" />
     <MESSAGE value="initializes server object with init() instead of initSockets() and initCommunication()" />
     <MESSAGE value="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()" />
     <MESSAGE value="added location of the JSON files in variables" />
@@ -622,7 +627,10 @@
     <MESSAGE value="fixed problem with getStringFromFile(), returning 'null' at the beginning of returned String" />
     <MESSAGE value="getStringFromFile() now removes All spaces in the JSON string, mainly for readability in console" />
     <MESSAGE value="Main.java now reads from local file and coverts it to a JSON object" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main.java now reads from local file and coverts it to a JSON object" />
+    <MESSAGE value="removed the method from the JSON files, it shouldn't have been there" />
+    <MESSAGE value="JSON paths are in an array, instead of variable" />
+    <MESSAGE value="added getJsonFromFile() that returns JSONObject made from local file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added getJsonFromFile() that returns JSONObject made from local file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
