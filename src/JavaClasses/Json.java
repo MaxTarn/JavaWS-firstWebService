@@ -47,7 +47,8 @@ public class Json {
 
             }while(temp != null);
 
-            return content.toString();
+
+            return content.toString().replaceAll("\\s", "");
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
