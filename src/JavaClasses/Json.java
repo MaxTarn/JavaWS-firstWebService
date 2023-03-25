@@ -7,20 +7,24 @@ import org.json.simple.parser.ParseException;
 import java.io.*;
 
 public class Json {
-    final String person1Path= "src/JSON/person1.json";
-    final String person3Path= "src/JSON/person3.json";
-    final String person2Path= "src/JSON/person2.json";
+    String[] paths = {
+            "src/JSON/person1.json",
+            "src/JSON/person2.json",
+            "src/JSON/person3.json"};
 
-    public String getPerson1Path() {
-        return person1Path;
-    }
+
+    public String getPerson1Path() {return paths[0];}
 
     public String getPerson2Path() {
-        return person2Path;
+        return paths[1];
     }
 
     public String getPerson3Path() {
-        return person3Path;
+        return paths[2];
+    }
+
+    public String[] getAllPersonsPath(){
+        return paths;
     }
 
 
