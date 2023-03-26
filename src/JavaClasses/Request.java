@@ -8,10 +8,10 @@ import java.util.Scanner;
 public class Request {
     JSONObject request = new JSONObject();
 
-    String fileToAccess;
-    String GetOrPost;
     Scanner in = new Scanner(System.in);
     Json json = new Json();
+    String input = null;
+    int chosenEntry;
 
     String getInput(){
         return in.nextLine();
@@ -83,10 +83,21 @@ public class Request {
         return temp;
     }
 
-    public void make() {
+
+
+    public void makeRequest() {
         JSONObject jsonObj = json.getJsonObjFromFile(json.getJsonPath());
-        System.out.println("There are currently " + jsonObj.get("length") + " different entries.");
-        System.out.println("What entry do you want to access? (accepted inputs: 1 through " + jsonObj.get("length") + ")");
+        int numberOfEntries = Integer.parseInt(jsonObj.get("length").toString());
+
+        System.out.println("There are currently " + numberOfEntries + " different entries.");
+        System.out.println("What entry do you want to access? (accepted inputs: 1 through " + numberOfEntries + ")");
+
+        chosenEntry = getInputBetween(1,numberOfEntries);
+
+        System.out.println();
+        System.out.println();
+        System.out.println("Do you wish to alter the entry? (yes / no)");
+
 
 
 
