@@ -1,7 +1,6 @@
 {
   "length": "4",
-  "person1":{
-    "id": 1,
+  "1":{
     "firstName": "Bilbo",
     "lastName": "Baggins",
     "age": "46",
@@ -13,8 +12,7 @@
       "nose": "large"
     }
   },
-  "person2":{
-    "id": 2,
+  "2":{
     "firstName": "Smaug",
     "lastName": "The Dragon",
     "age": "1000",
@@ -26,8 +24,7 @@
       "nose": "gigantic"
     }
   },
-  "person3":{
-    "id": 3,
+  "3":{
     "firstName": "Grogu",
     "lastName": "unknown",
     "age": "50",
@@ -39,8 +36,7 @@
       "nose": "small"
     }
   },
-  "person4":{
-    "id": 4,
+  "4":{
     "firstName": "Darth",
     "lastName": "Vader",
     "age": "45",
