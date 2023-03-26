@@ -1,8 +1,8 @@
 package JavaClasses;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 import java.io.*;
 
@@ -63,19 +63,22 @@ public class Json {
         return null;
     }
 
-    public JSONObject convertToJson(String jsonString){
+    public Object convertToJsonObject(String jsonString){
         JSONParser parser = new JSONParser();
         Object obj = null;
         try {
             obj = parser.parse(jsonString);
-        } catch (Exception e) {
-            throw new RuntimeException(e);
+        } catch (Exception ex) {
+            throw new RuntimeException(ex);
         }
-        return (JSONObject) obj;
+        return  obj;
 
     }
 
-    public JSONObject getJsonFromFile(String filePath){
-        return convertToJson(getStringFromFile(filePath));
+    public JSONObject getJsonObjectFromFile(String filePath){
+        return (JSONObject) convertToJsonObject(getStringFromFile(filePath));
+    }
+    public JSONArray getJsonArrayFromFile(String filePath){
+        return (JSONArray) convertToJsonObject(getStringFromFile(filePath));
     }
 }
