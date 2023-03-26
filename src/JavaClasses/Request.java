@@ -11,7 +11,12 @@ public class Request {
     Scanner in = new Scanner(System.in);
     Json json = new Json();
     String input = null;
+
+
     int chosenEntry;
+    String methodIsGet;
+
+
 
     String getInput(){
         return in.nextLine();
@@ -58,6 +63,14 @@ public class Request {
 
         return false;
 
+    }
+
+    Boolean isYes(String input){
+        if (isYesOrNo(input)){
+            return input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y");
+        }else {
+            return null;
+        }
     }
 
     String getYesOrNo(){

@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="used as a placeholder for the request that wil be sent to the server, from the client">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,14 +240,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="13834000" />
-    </task>
-    <task id="LOCAL-00016" summary="removed empty line">
-      <created>1678959939245</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1678959939245</updated>
+      <workItem from="1679831476953" duration="15883000" />
     </task>
     <task id="LOCAL-00017" summary="added getMessegeFromConsole() and now client and server can connect using only methods">
       <created>1678960548793</created>
@@ -584,7 +578,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679863704692</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="background files">
+      <created>1679864752998</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1679864752999</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -625,9 +626,9 @@
     <MESSAGE value="added getYesOrNo() that gets 'yes'  /'no' from console, added isYesOrNo() that checks if string is 'yes' / 'no' , added getInputBetween() that gets an integer from console that falls between the two integer parameters" />
     <MESSAGE value="renamed make() to makeRequest(), asks what entry the user wants to access" />
     <MESSAGE value="make() is now makeRequest()" />
-    <MESSAGE value="background files" />
     <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
-    <option name="LAST_COMMIT_MESSAGE" value="used as a placeholder for the request that wil be sent to the server, from the client" />
+    <MESSAGE value="background files" />
+    <option name="LAST_COMMIT_MESSAGE" value="background files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
