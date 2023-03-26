@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added MakeRequest.java that will build the request sent to the server">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray">
+      <change afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/person1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/person2.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/person3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/placeholder.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,21 +248,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="765000" />
-    </task>
-    <task id="LOCAL-00007" summary="added and made initSockets, initCommunication, getMessege, sendMessege methods">
-      <created>1678955526037</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1678955526037</updated>
-    </task>
-    <task id="LOCAL-00008" summary="added close() that closes all open readers/sockets/writers">
-      <created>1678955952730</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1678955952730</updated>
+      <workItem from="1679831476953" duration="4319000" />
     </task>
     <task id="LOCAL-00009" summary="removed old code that is now in methods and is therefore unneeded">
       <created>1678956091259</created>
@@ -585,7 +579,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679788020317</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="found error, it was supposed to be -1 and not +1">
+      <created>1679832319703</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1679832319704</updated>
+    </task>
+    <task id="LOCAL-00057" summary="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray">
+      <created>1679833986058</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1679833986058</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Main.java to test code snippets" />
-    <MESSAGE value="changed path to the correct path" />
     <MESSAGE value="improved getStringFromFile()" />
     <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
     <MESSAGE value="added 'method' , 'content', and 'parameters'" />
@@ -628,7 +634,9 @@
     <MESSAGE value="added getPersonPath(), takes in an integer and returns the person path based on that integer" />
     <MESSAGE value="used for making MakeRequest.java class" />
     <MESSAGE value="added MakeRequest.java that will build the request sent to the server" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MakeRequest.java that will build the request sent to the server" />
+    <MESSAGE value="found error, it was supposed to be -1 and not +1" />
+    <MESSAGE value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
