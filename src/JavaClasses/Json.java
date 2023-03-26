@@ -7,30 +7,9 @@ import org.json.simple.parser.JSONParser;
 import java.io.*;
 
 public class Json {
-    final String[] paths = {
-            "src/JSON/person1.json",
-            "src/JSON/person2.json",
-            "src/JSON/person3.json"};
+    final String jsonPath = "src/JSON/allPersons.json";
 
-
-    public String getPerson1Path() {return paths[0];}
-
-    public String getPerson2Path() {
-        return paths[1];
-    }
-
-    public String getPerson3Path() {
-        return paths[2];
-    }
-
-    public String[] getAllPersonsPath(){
-        return paths;
-    }
-
-    public String getPersonPath(int personNumber){
-        return paths[personNumber];
-    }
-
+    public String getJsonPath(){return jsonPath;}
 
     public boolean fileExists(String filePath){
         File path = new File(filePath);
@@ -63,7 +42,7 @@ public class Json {
         return null;
     }
 
-    public Object convertToJsonObject(String jsonString){
+    public JSONObject convertToJsonObject(String jsonString){
         JSONParser parser = new JSONParser();
         Object obj = null;
         try {
@@ -71,14 +50,11 @@ public class Json {
         } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
-        return  obj;
+        return (JSONObject) obj;
 
     }
 
-    public JSONObject getJsonObjectFromFile(String filePath){
-        return (JSONObject) convertToJsonObject(getStringFromFile(filePath));
-    }
-    public JSONArray getJsonArrayFromFile(String filePath){
-        return (JSONArray) convertToJsonObject(getStringFromFile(filePath));
+    public JSONObject getJsonObjFromFile(String filePath){
+        return convertToJsonObject(getStringFromFile(filePath));
     }
 }
