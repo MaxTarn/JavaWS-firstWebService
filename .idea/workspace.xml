@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added getJsonFromFile() that returns JSONObject made from local file">
-      <change afterPath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added MakeRequest.java that will build the request sent to the server">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -242,35 +239,8 @@
       <workItem from="1679051590054" duration="5712000" />
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
-      <workItem from="1679780440133" duration="6950000" />
-    </task>
-    <task id="LOCAL-00003" summary="started moving code into methods in the Server.java class. &#10;&#10;No &#10;public static void main(String[] args){} &#10;in the Server.java, instead in Main.java">
-      <created>1678921847863</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678921847863</updated>
-    </task>
-    <task id="LOCAL-00004" summary="all .close() are now in a singele try-catch">
-      <created>1678922915579</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1678922915579</updated>
-    </task>
-    <task id="LOCAL-00005" summary="all .close() are now in a singele try-catch">
-      <created>1678923482025</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678923482025</updated>
-    </task>
-    <task id="LOCAL-00006" summary="added comments to clarify code">
-      <created>1678953696666</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678953696666</updated>
+      <workItem from="1679780440133" duration="8083000" />
+      <workItem from="1679831476953" duration="765000" />
     </task>
     <task id="LOCAL-00007" summary="added and made initSockets, initCommunication, getMessege, sendMessege methods">
       <created>1678955526037</created>
@@ -587,7 +557,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679784409238</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="added getPersonPath(), takes in an integer and returns the person path based on that integer">
+      <created>1679787805836</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787805836</updated>
+    </task>
+    <task id="LOCAL-00053" summary="used for making MakeRequest.java class">
+      <created>1679787932230</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787932230</updated>
+    </task>
+    <task id="LOCAL-00054" summary="used for making MakeRequest.java class">
+      <created>1679787942739</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1679787942739</updated>
+    </task>
+    <task id="LOCAL-00055" summary="added MakeRequest.java that will build the request sent to the server">
+      <created>1679788020317</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1679788020317</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,9 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="initializes server object with init() instead of initSockets() and initCommunication()" />
-    <MESSAGE value="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()" />
-    <MESSAGE value="added location of the JSON files in variables" />
     <MESSAGE value="added Main.java to test code snippets" />
     <MESSAGE value="changed path to the correct path" />
     <MESSAGE value="improved getStringFromFile()" />
@@ -630,7 +625,10 @@
     <MESSAGE value="removed the method from the JSON files, it shouldn't have been there" />
     <MESSAGE value="JSON paths are in an array, instead of variable" />
     <MESSAGE value="added getJsonFromFile() that returns JSONObject made from local file" />
-    <option name="LAST_COMMIT_MESSAGE" value="added getJsonFromFile() that returns JSONObject made from local file" />
+    <MESSAGE value="added getPersonPath(), takes in an integer and returns the person path based on that integer" />
+    <MESSAGE value="used for making MakeRequest.java class" />
+    <MESSAGE value="added MakeRequest.java that will build the request sent to the server" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MakeRequest.java that will build the request sent to the server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

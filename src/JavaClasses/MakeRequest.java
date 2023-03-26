@@ -29,7 +29,7 @@ public class MakeRequest {
         System.out.println("What entry do you want to access?");
 
         try {
-            int input = getInputAsInt() + 1;
+            int input = getInputAsInt() - 1;
             fileToAccess = json.getPersonPath(input);
         }catch (Exception ex){
             System.out.println("invalid input: only numbers within specified range allowed");
