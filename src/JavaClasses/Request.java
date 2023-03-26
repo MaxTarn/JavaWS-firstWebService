@@ -14,10 +14,72 @@ public class Request {
     Json json = new Json();
 
     String getInput(){
-        String temp;
+        return in.nextLine();
+    }
+
+    int getInputBetween(int lower, int higher){
+
+        boolean goodInput = false;
+        int temp = -1;
         do {
-            temp = in.nextLine();
-        }while (temp == null);
+
+            try {
+                temp = Integer.parseInt(getInput());
+            }catch (Exception ex){
+                System.out.println();
+            }
+            if(temp <= higher && temp >= lower) {
+                goodInput = true;
+            }else{
+                System.out.println("Not valid input. Try again.");
+            }
+
+        }while(!goodInput);
+        return temp;
+
+    }
+    boolean isYesOrNo(String input){
+
+
+        if (input.equalsIgnoreCase("yes")){
+            return true;
+        }
+        if(input.equalsIgnoreCase("y")){
+            return true;
+        }
+
+
+        if(input.equalsIgnoreCase("no")){
+            return true;
+        }
+        if(input.equalsIgnoreCase("n")){
+            return true;
+        }
+
+        return false;
+
+    }
+
+    String getYesOrNo(){
+        boolean goodInput = false;
+        String temp = null;
+        do {
+
+            try {
+
+                temp = getInput();
+
+                if (isYesOrNo(temp)){
+                    goodInput = true;
+                }
+
+            }catch (Exception ex){
+                System.out.println(ex.getMessage());
+            }
+
+
+
+        }while(!goodInput);
         return temp;
     }
 
