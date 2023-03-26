@@ -7,6 +7,6 @@ public class Main {
         Request request = new Request();
 
 
-        request.make();
+        request.makeRequest();
     }
 }
