@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray">
-      <change afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="before code was written for multiple files, now code is written for one larger file.">
+      <change afterPath="$PROJECT_DIR$/src/JSON/requestSkeleton.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/person1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/person2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/person3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JSON/placeholder.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/MakeRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -248,21 +243,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="4319000" />
-    </task>
-    <task id="LOCAL-00009" summary="removed old code that is now in methods and is therefore unneeded">
-      <created>1678956091259</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1678956091259</updated>
-    </task>
-    <task id="LOCAL-00010" summary="added init method that initializes ALL the things needed.">
-      <created>1678956427820</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1678956427820</updated>
+      <workItem from="1679831476953" duration="12228000" />
     </task>
     <task id="LOCAL-00011" summary="added comment to clarify code">
       <created>1678957343190</created>
@@ -593,7 +574,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679833986058</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="all JSON data is now in allPersons.json , removed the other JSON files">
+      <created>1679836115185</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1679836115185</updated>
+    </task>
+    <task id="LOCAL-00059" summary="before code was written for multiple files, now code is written for one larger file.">
+      <created>1679836195218</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1679836195218</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,8 +606,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="improved getStringFromFile()" />
-    <MESSAGE value="creates new Json object, tests file location of person1, prints out the string from person1" />
     <MESSAGE value="added 'method' , 'content', and 'parameters'" />
     <MESSAGE value="testing a good port, that should be available" />
     <MESSAGE value="added reset() that sets all readers / writers/ socket/ scanner to null" />
@@ -636,7 +629,9 @@
     <MESSAGE value="added MakeRequest.java that will build the request sent to the server" />
     <MESSAGE value="found error, it was supposed to be -1 and not +1" />
     <MESSAGE value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
+    <MESSAGE value="all JSON data is now in allPersons.json , removed the other JSON files" />
+    <MESSAGE value="before code was written for multiple files, now code is written for one larger file." />
+    <option name="LAST_COMMIT_MESSAGE" value="before code was written for multiple files, now code is written for one larger file." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
