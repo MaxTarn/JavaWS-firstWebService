@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,21 +242,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="15883000" />
-    </task>
-    <task id="LOCAL-00017" summary="added getMessegeFromConsole() and now client and server can connect using only methods">
-      <created>1678960548793</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1678960548793</updated>
-    </task>
-    <task id="LOCAL-00018" summary="removed 'public static void main' from 'Client.java' class">
-      <created>1678960642850</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1678960642850</updated>
+      <workItem from="1679831476953" duration="18291000" />
     </task>
     <task id="LOCAL-00019" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
       <created>1678960718926</created>
@@ -585,7 +573,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679864752999</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither">
+      <created>1679867272961</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1679867272961</updated>
+    </task>
+    <task id="LOCAL-00067" summary="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed">
+      <created>1679868683026</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1679868683026</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="reset() closes all open writers/readers/socket/scanner, before setting them to null" />
-    <MESSAGE value="close() now also closes 'scanner'" />
     <MESSAGE value="init() no longer returns bool" />
     <MESSAGE value="spelling mistake" />
     <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
@@ -628,7 +628,9 @@
     <MESSAGE value="make() is now makeRequest()" />
     <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
     <MESSAGE value="background files" />
-    <option name="LAST_COMMIT_MESSAGE" value="background files" />
+    <MESSAGE value="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither" />
+    <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

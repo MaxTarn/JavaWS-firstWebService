@@ -1,3 +1,4 @@
+import JavaClasses.Json;
 import JavaClasses.Server;
 
 
@@ -7,6 +8,8 @@ public class MainServer {
         //creates a server object from the Server class
         Server server = new Server();
 
+        Json json = new Json();
+
         //initiates server object
         server.init(6969);
 
@@ -14,6 +17,8 @@ public class MainServer {
         String messege;
         do {
             messege = server.getMessege();
+
+            System.out.println(json.convertToJsonObject(messege).toJSONString());
         } while (!messege.equalsIgnoreCase("quit") );
 
 

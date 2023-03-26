@@ -14,7 +14,8 @@ public class Request {
 
 
     int chosenEntry;
-    String methodIsGet;
+    String method;
+    String contentType = "application/json";
 
 
 
@@ -98,7 +99,8 @@ public class Request {
 
 
 
-    public void makeRequest() {
+    public JSONObject makeRequest() {
+        String temp;
         JSONObject jsonObj = json.getJsonObjFromFile(json.getJsonPath());
         int numberOfEntries = Integer.parseInt(jsonObj.get("length").toString());
 
@@ -111,7 +113,17 @@ public class Request {
         System.out.println();
         System.out.println("Do you wish to alter the entry? (yes / no)");
 
+        temp = getYesOrNo();
+        if(isYes(temp)){
+            method = "POST";
+        }else {
+            method = "GET";
+        }
+        request.put("HTTPMethod", method);
+        request.put("ContentType", contentType);
+        request.put("URLParameters", "person/" + (chosenEntry-1));
 
+        return request;
 
 
 
