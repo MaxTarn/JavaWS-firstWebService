@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="before code was written for multiple files, now code is written for one larger file.">
-      <change afterPath="$PROJECT_DIR$/src/JSON/requestSkeleton.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="used as a placeholder for the request that wil be sent to the server, from the client">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,42 +239,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="12228000" />
-    </task>
-    <task id="LOCAL-00011" summary="added comment to clarify code">
-      <created>1678957343190</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1678957343190</updated>
-    </task>
-    <task id="LOCAL-00012" summary="changed Main to MainServer and added MainClient file">
-      <created>1678957563083</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1678957563083</updated>
-    </task>
-    <task id="LOCAL-00013" summary="removed unneeded assignment to null">
-      <created>1678957612457</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1678957612457</updated>
-    </task>
-    <task id="LOCAL-00014" summary="added 'public static void main'">
-      <created>1678957763901</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1678957763901</updated>
-    </task>
-    <task id="LOCAL-00015" summary="it should connect to server and function">
-      <created>1678958434676</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1678958434676</updated>
+      <workItem from="1679831476953" duration="13834000" />
     </task>
     <task id="LOCAL-00016" summary="removed empty line">
       <created>1678959939245</created>
@@ -588,7 +549,42 @@
       <option name="project" value="LOCAL" />
       <updated>1679836195218</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="added getYesOrNo() that gets 'yes'  /'no' from console, added isYesOrNo() that checks if string is 'yes' / 'no' , added getInputBetween() that gets an integer from console that falls between the two integer parameters">
+      <created>1679863449780</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1679863449780</updated>
+    </task>
+    <task id="LOCAL-00061" summary="renamed make() to makeRequest(), asks what entry the user wants to access">
+      <created>1679863598663</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1679863598663</updated>
+    </task>
+    <task id="LOCAL-00062" summary="make() is now makeRequest()">
+      <created>1679863648883</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1679863648887</updated>
+    </task>
+    <task id="LOCAL-00063" summary="background files">
+      <created>1679863668763</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1679863668763</updated>
+    </task>
+    <task id="LOCAL-00064" summary="used as a placeholder for the request that wil be sent to the server, from the client">
+      <created>1679863704692</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1679863704692</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,16 +602,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added 'method' , 'content', and 'parameters'" />
-    <MESSAGE value="testing a good port, that should be available" />
-    <MESSAGE value="added reset() that sets all readers / writers/ socket/ scanner to null" />
-    <MESSAGE value="tests init() , initCommunication() , initSockets(), added method to check if readers/writers/scanner/socket is not null" />
     <MESSAGE value="reset() closes all open writers/readers/socket/scanner, before setting them to null" />
     <MESSAGE value="close() now also closes 'scanner'" />
     <MESSAGE value="init() no longer returns bool" />
     <MESSAGE value="spelling mistake" />
     <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
-    <MESSAGE value="background files" />
     <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
     <MESSAGE value="convertToJson() now returns a JSONObject" />
     <MESSAGE value="fixed problem with getStringFromFile(), returning 'null' at the beginning of returned String" />
@@ -631,7 +622,12 @@
     <MESSAGE value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
     <MESSAGE value="all JSON data is now in allPersons.json , removed the other JSON files" />
     <MESSAGE value="before code was written for multiple files, now code is written for one larger file." />
-    <option name="LAST_COMMIT_MESSAGE" value="before code was written for multiple files, now code is written for one larger file." />
+    <MESSAGE value="added getYesOrNo() that gets 'yes'  /'no' from console, added isYesOrNo() that checks if string is 'yes' / 'no' , added getInputBetween() that gets an integer from console that falls between the two integer parameters" />
+    <MESSAGE value="renamed make() to makeRequest(), asks what entry the user wants to access" />
+    <MESSAGE value="make() is now makeRequest()" />
+    <MESSAGE value="background files" />
+    <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
+    <option name="LAST_COMMIT_MESSAGE" value="used as a placeholder for the request that wil be sent to the server, from the client" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
