@@ -7,8 +7,8 @@
     "species": "human",
     "gender": "male",
     "Features": {
-      "hair": "brown",
-      "eyes": "blue",
+      "hairColor": "brown",
+      "eyeColor": "blue",
       "nose": "large"
     }
   },
@@ -19,8 +19,8 @@
     "species": "dragon",
     "gender": "male",
     "Features": {
-      "hair": "none",
-      "eyes": "red",
+      "hairColor": "none",
+      "eyeColor": "red",
       "nose": "gigantic"
     }
   },
@@ -31,8 +31,8 @@
     "species": "baby yoda",
     "gender": "unknown",
     "Features": {
-      "hair": "sparse",
-      "eyes": "dark brown",
+      "hairColor": "sparse",
+      "eyeColor": "dark brown",
       "nose": "small"
     }
   },
@@ -43,8 +43,8 @@
     "species": "human",
     "gender": "Cyborg",
     "Features": {
-      "hair": "none",
-      "eyes": "yellow",
+      "hairColor": "none",
+      "eyeColor": "yellow",
       "nose": "normal"
     }
   }
