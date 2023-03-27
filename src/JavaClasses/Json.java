@@ -57,6 +57,24 @@ public class Json {
         return convertToJsonObject(getStringFromFile(filePath));
     }
 
+    public JSONObject getPerson(JSONObject jsonObj, String personId){
+        int length;
+        int personIdInt;
+        try {
+            length = Integer.parseInt(jsonObj.get("length").toString());
+            personIdInt = Integer.parseInt(personId);
+        }catch (Exception ex){
+            return null;
+        }
+
+
+        if(personIdInt <= length && personIdInt >= 1){
+            return (JSONObject) jsonObj.get(personId);
+        }else{
+            return null;
+        }
+    }
+
     public void display(JSONObject person){
         JSONObject features = (JSONObject) person.get("Features");
 
