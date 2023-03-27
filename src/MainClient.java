@@ -22,6 +22,7 @@ public class MainClient {
         //}while(!messege.equalsIgnoreCase("quit"));
 
         while(true){
+            System.out.println(client.getMessege());
             JSONObject request = requestMaker.makeRequest();
             String requestString = request.toJSONString();
             client.sendMessege(requestString);
