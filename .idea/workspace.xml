@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -238,20 +241,7 @@
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
       <workItem from="1679831476953" duration="18473000" />
-    </task>
-    <task id="LOCAL-00020" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
-      <created>1678960803992</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1678960803992</updated>
-    </task>
-    <task id="LOCAL-00021" summary="added JSON package and added JSON file with some data">
-      <created>1678960995220</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1678960995220</updated>
+      <workItem from="1679917186491" duration="2314000" />
     </task>
     <task id="LOCAL-00022" summary="added more data to JSON file">
       <created>1679071610907</created>
@@ -582,7 +572,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679869782826</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="background files">
+      <created>1679917503963</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1679917503963</updated>
+    </task>
+    <task id="LOCAL-00070" summary="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'">
+      <created>1679921563252</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1679921563252</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +604,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="spelling mistake" />
     <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
     <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
     <MESSAGE value="convertToJson() now returns a JSONObject" />
@@ -621,11 +624,12 @@
     <MESSAGE value="renamed make() to makeRequest(), asks what entry the user wants to access" />
     <MESSAGE value="make() is now makeRequest()" />
     <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
-    <MESSAGE value="background files" />
     <MESSAGE value="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither" />
     <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
     <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
-    <option name="LAST_COMMIT_MESSAGE" value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
+    <MESSAGE value="background files" />
+    <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
