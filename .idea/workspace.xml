@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
-    </list>
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,7 +70,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ClientAndServerTest.clientClass">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
@@ -242,14 +237,7 @@
       <workItem from="1679244555722" duration="14732000" />
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
-      <workItem from="1679831476953" duration="18291000" />
-    </task>
-    <task id="LOCAL-00019" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
-      <created>1678960718926</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1678960718926</updated>
+      <workItem from="1679831476953" duration="18473000" />
     </task>
     <task id="LOCAL-00020" summary="changed to the comparison of the 'messege' sent was doing the correct thing, it is now not casesensitive">
       <created>1678960803992</created>
@@ -587,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679868683026</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server">
+      <created>1679869782826</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1679869782826</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +600,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="init() no longer returns bool" />
     <MESSAGE value="spelling mistake" />
     <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
     <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
@@ -630,7 +624,8 @@
     <MESSAGE value="background files" />
     <MESSAGE value="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither" />
     <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
+    <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
+    <option name="LAST_COMMIT_MESSAGE" value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
