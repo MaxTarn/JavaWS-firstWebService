@@ -121,7 +121,7 @@ public class Request {
         }
         request.put("HTTPMethod", method);
         request.put("ContentType", contentType);
-        request.put("URLParameters", "person/" + (chosenEntry-1));
+        request.put("URLParameters", "person/" + (chosenEntry));
 
         return request;
 

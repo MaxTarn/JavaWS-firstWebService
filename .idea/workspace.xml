@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added display() that takes in a single person from allPersons.json, and prints in console its different properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +77,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ClientAndServerTest.clientClass">
+  <component name="RunManager">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
@@ -241,14 +245,7 @@
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
       <workItem from="1679831476953" duration="18473000" />
-      <workItem from="1679917186491" duration="2314000" />
-    </task>
-    <task id="LOCAL-00022" summary="added more data to JSON file">
-      <created>1679071610907</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1679071610907</updated>
+      <workItem from="1679917186491" duration="4309000" />
     </task>
     <task id="LOCAL-00023" summary="split getRequest1.json into three JSON files, added species value to all the JSON files">
       <created>1679245373770</created>
@@ -586,7 +583,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679921563252</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="added display() that takes in a single person from allPersons.json, and prints in console its different properties">
+      <created>1679922422941</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1679922422942</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="communication() tests the communication between Server and Client , not working at the moment" />
     <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
     <MESSAGE value="convertToJson() now returns a JSONObject" />
     <MESSAGE value="fixed problem with getStringFromFile(), returning 'null' at the beginning of returned String" />
@@ -629,7 +632,8 @@
     <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
     <MESSAGE value="background files" />
     <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
+    <MESSAGE value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
