@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added display() that takes in a single person from allPersons.json, and prints in console its different properties">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="client can now send request to server, and server can now send back a good response">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
@@ -245,35 +242,7 @@
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
       <workItem from="1679831476953" duration="18473000" />
-      <workItem from="1679917186491" duration="4309000" />
-    </task>
-    <task id="LOCAL-00023" summary="split getRequest1.json into three JSON files, added species value to all the JSON files">
-      <created>1679245373770</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1679245373771</updated>
-    </task>
-    <task id="LOCAL-00024" summary="added placeholder.json,contains all the structure and no data">
-      <created>1679246395672</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1679246395672</updated>
-    </task>
-    <task id="LOCAL-00025" summary="initializes server object with init() instead of initSockets() and initCommunication()">
-      <created>1679257317663</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1679257317663</updated>
-    </task>
-    <task id="LOCAL-00026" summary="Json.java class that will handle everything JSON, added fileExists(), added getStringFromFile()">
-      <created>1679263477491</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1679263477491</updated>
+      <workItem from="1679917186491" duration="11031000" />
     </task>
     <task id="LOCAL-00027" summary="added location of the JSON files in variables">
       <created>1679264979574</created>
@@ -590,7 +559,35 @@
       <option name="project" value="LOCAL" />
       <updated>1679922422942</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL-00072" summary="added getPerson() that takes in the entire JsonData and returns the chosen person, from parameter">
+      <created>1679924461470</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924461470</updated>
+    </task>
+    <task id="LOCAL-00073" summary="testing getPerson()">
+      <created>1679924489143</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924489143</updated>
+    </task>
+    <task id="LOCAL-00074" summary="prints out messege from server">
+      <created>1679924525204</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924525204</updated>
+    </task>
+    <task id="LOCAL-00075" summary="slowly implementing the required features">
+      <created>1679924659930</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924659930</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,11 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed setPersonPath() for person 1 &amp; 2 &amp; 3" />
-    <MESSAGE value="convertToJson() now returns a JSONObject" />
-    <MESSAGE value="fixed problem with getStringFromFile(), returning 'null' at the beginning of returned String" />
-    <MESSAGE value="getStringFromFile() now removes All spaces in the JSON string, mainly for readability in console" />
-    <MESSAGE value="Main.java now reads from local file and coverts it to a JSON object" />
     <MESSAGE value="removed the method from the JSON files, it shouldn't have been there" />
     <MESSAGE value="JSON paths are in an array, instead of variable" />
     <MESSAGE value="added getJsonFromFile() that returns JSONObject made from local file" />
@@ -633,7 +625,12 @@
     <MESSAGE value="background files" />
     <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
     <MESSAGE value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
+    <MESSAGE value="added getPerson() that takes in the entire JsonData and returns the chosen person, from parameter" />
+    <MESSAGE value="testing getPerson()" />
+    <MESSAGE value="prints out messege from server" />
+    <MESSAGE value="slowly implementing the required features" />
+    <MESSAGE value="client can now send request to server, and server can now send back a good response" />
+    <option name="LAST_COMMIT_MESSAGE" value="client can now send request to server, and server can now send back a good response" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
