@@ -56,6 +56,10 @@ public class MainClient {
             System.out.println("Do you wish to send a Request to the server?");
             String answer = client.getInput();
 
+            if (answer.equalsIgnoreCase("quit")){
+                break;
+            }
+
             if(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("y")){
                 sendNewRequest();
 
