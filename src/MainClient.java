@@ -41,10 +41,16 @@ public class MainClient {
     }
 
 
+
     public static void main(String[] args) {
 
+        System.out.println("Connecting to server.");
 
-        client.init(6969);
+
+        while(client.connectionIsGood()){
+            client.reset();
+            client.init(6969);
+        }
 
 
 
