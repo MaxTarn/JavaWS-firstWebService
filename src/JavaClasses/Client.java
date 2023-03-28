@@ -67,6 +67,20 @@ public class Client {
         }
     }
 
+    public boolean connectionIsGood(){
+        if(     socket != null &&
+                inputStreamReader != null &&
+                bufferedReader != null &&
+                outputStreamWriter != null &&
+                bufferedWriter != null &&
+                scanner != null){
+            return true;
+
+        }else{
+            return false;
+        }
+    }
+
     public String getMessege(){
         try {
             messege = bufferedReader.readLine();
