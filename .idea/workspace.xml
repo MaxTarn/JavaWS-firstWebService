@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -244,28 +240,7 @@
       <workItem from="1679831476953" duration="18473000" />
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
-      <workItem from="1680035404150" duration="315000" />
-    </task>
-    <task id="LOCAL-00030" summary="improved getStringFromFile()">
-      <created>1679266676831</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1679266676831</updated>
-    </task>
-    <task id="LOCAL-00031" summary="creates new Json object, tests file location of person1, prints out the string from person1">
-      <created>1679266742939</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1679266742939</updated>
-    </task>
-    <task id="LOCAL-00032" summary="background files">
-      <created>1679647005030</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1679647005030</updated>
+      <workItem from="1680035404150" duration="688000" />
     </task>
     <task id="LOCAL-00033" summary="background files">
       <created>1679647023660</created>
@@ -589,7 +564,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680035629943</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="the @Test tests dont work now??? i dont know wtf happened">
+      <created>1680035862109</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1680035862109</updated>
+    </task>
+    <task id="LOCAL-00080" summary="tried to make it so that you can start MainClient before you start MainServer, but failed">
+      <created>1680035992640</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1680035992640</updated>
+    </task>
+    <task id="LOCAL-00081" summary="background files">
+      <created>1680036012458</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1680036012458</updated>
+    </task>
+    <option name="localTasksCounter" value="82" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,8 +603,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added getJsonFromFile() that returns JSONObject made from local file" />
-    <MESSAGE value="added getPersonPath(), takes in an integer and returns the person path based on that integer" />
     <MESSAGE value="used for making MakeRequest.java class" />
     <MESSAGE value="added MakeRequest.java that will build the request sent to the server" />
     <MESSAGE value="found error, it was supposed to be -1 and not +1" />
@@ -622,7 +616,6 @@
     <MESSAGE value="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither" />
     <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
     <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
-    <MESSAGE value="background files" />
     <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
     <MESSAGE value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
     <MESSAGE value="added getPerson() that takes in the entire JsonData and returns the chosen person, from parameter" />
@@ -632,7 +625,10 @@
     <MESSAGE value="client can now send request to server, and server can now send back a good response" />
     <MESSAGE value="added way to get out of infinite loop in MainClient, by entering 'quit'" />
     <MESSAGE value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
-    <option name="LAST_COMMIT_MESSAGE" value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
+    <MESSAGE value="the @Test tests dont work now??? i dont know wtf happened" />
+    <MESSAGE value="tried to make it so that you can start MainClient before you start MainServer, but failed" />
+    <MESSAGE value="background files" />
+    <option name="LAST_COMMIT_MESSAGE" value="background files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
