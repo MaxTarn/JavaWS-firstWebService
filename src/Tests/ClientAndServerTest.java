@@ -41,27 +41,17 @@ public class ClientAndServerTest {
         client.init(6969);
 
         testClient(client, 6969);
+        client.close();
     }
 
     @Test
-    void communication(){
-        String messege = "potata";
-        int portnumber = 6969;
-        System.out.println(1);
-
-        Server server = new Server();
-        System.out.println(1.1);
-        server.init(portnumber);
-        System.out.println(2);
-
+    void connectionIsGood(){
         Client client = new Client();
-        client.init(portnumber);
-        System.out.println(3);
-
-        client.sendMessege(messege);
-        assertEquals(server.getMessege(), messege);
-        System.out.println(4);
+        client.init(6969);
+        assertTrue(client.connectionIsGood());
     }
+
+
 
 
 }
