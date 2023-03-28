@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="client can now send request to server, and server can now send back a good response">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +74,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.ClientAndServerTest.clientClass">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
@@ -240,21 +242,9 @@
       <workItem from="1679674994723" duration="6328000" />
       <workItem from="1679780440133" duration="8083000" />
       <workItem from="1679831476953" duration="18473000" />
-      <workItem from="1679917186491" duration="11090000" />
-    </task>
-    <task id="LOCAL-00028" summary="added Main.java to test code snippets">
-      <created>1679265065221</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1679265065221</updated>
-    </task>
-    <task id="LOCAL-00029" summary="changed path to the correct path">
-      <created>1679266644736</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1679266644736</updated>
+      <workItem from="1679917186491" duration="16364000" />
+      <workItem from="1680005495045" duration="3758000" />
+      <workItem from="1680035404150" duration="315000" />
     </task>
     <task id="LOCAL-00030" summary="improved getStringFromFile()">
       <created>1679266676831</created>
@@ -585,7 +575,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679947771891</updated>
     </task>
-    <option name="localTasksCounter" value="77" />
+    <task id="LOCAL-00077" summary="added way to get out of infinite loop in MainClient, by entering 'quit'">
+      <created>1679947905900</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1679947905900</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null">
+      <created>1680035629943</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1680035629943</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,8 +607,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="removed the method from the JSON files, it shouldn't have been there" />
-    <MESSAGE value="JSON paths are in an array, instead of variable" />
     <MESSAGE value="added getJsonFromFile() that returns JSONObject made from local file" />
     <MESSAGE value="added getPersonPath(), takes in an integer and returns the person path based on that integer" />
     <MESSAGE value="used for making MakeRequest.java class" />
@@ -628,10 +630,17 @@
     <MESSAGE value="prints out messege from server" />
     <MESSAGE value="slowly implementing the required features" />
     <MESSAGE value="client can now send request to server, and server can now send back a good response" />
-    <option name="LAST_COMMIT_MESSAGE" value="client can now send request to server, and server can now send back a good response" />
+    <MESSAGE value="added way to get out of infinite loop in MainClient, by entering 'quit'" />
+    <MESSAGE value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
+    <option name="LAST_COMMIT_MESSAGE" value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_clientClass.ic" NAME="ClientAndServerTest.clientClass Coverage Results" MODIFIED="1680014284800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
   </component>
 </project>
