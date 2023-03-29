@@ -47,8 +47,7 @@ public class MainClient {
         System.out.println("Connecting to server.");
 
 
-        while(client.connectionIsGood()){
-            client.reset();
+        while(!client.connectionIsGood()){
             client.init(6969);
         }
 
@@ -70,6 +69,7 @@ public class MainClient {
                 sendNewRequest();
 
                 JSONObject response = getResponse();
+                System.out.println(response.toJSONString());
 
             }
 
