@@ -5,7 +5,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 
-
 public class MainClient {
 
     static Client client = new Client();
@@ -42,7 +41,8 @@ public class MainClient {
 
 
 
-    public static void main(String[] args) {
+
+    public static void main(String[] args)  {
 
         System.out.println("Connecting to server.");
 
@@ -50,16 +50,16 @@ public class MainClient {
         while(!client.connectionIsGood()){
             client.init(6969);
         }
+        System.out.println("Connected to server.");
 
 
-
-
-
-
-
+        System.out.println();
+        System.out.println("- - - - - - - - - - - - - - - - - ");
         while(true){
-            System.out.println("Do you wish to send a Request to the server?");
+            System.out.print("Do you wish to send a Request to the server? (accepted inputs:  yes / quit)  :");
             String answer = client.getInput();
+            System.out.println();
+
 
             if (answer.equalsIgnoreCase("quit")){
                 break;
@@ -72,7 +72,8 @@ public class MainClient {
                 System.out.println(response.toJSONString());
 
             }
-
+            System.out.println("- - - - - - - - - - - - - - - - - ");
+            System.out.println();
 
         }
 

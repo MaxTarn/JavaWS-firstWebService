@@ -85,6 +85,8 @@ public class Request {
 
                 if (isYesOrNo(temp)){
                     goodInput = true;
+                }else{
+                    System.out.print("Try again:");
                 }
 
             }catch (Exception ex){
@@ -100,20 +102,20 @@ public class Request {
 
 
     public JSONObject makeRequest() {
-        String temp;
+
         JSONObject jsonObj = json.getJsonObjFromFile(json.getJsonPath());
         int numberOfEntries = Integer.parseInt(jsonObj.get("length").toString());
 
         System.out.println("There are currently " + numberOfEntries + " different entries.");
-        System.out.println("What entry do you want to access? (accepted inputs: 1 through " + numberOfEntries + ")");
-
+        System.out.print("What entry do you want to access? (accepted inputs: 1 through " + numberOfEntries + ")   :");
         chosenEntry = getInputBetween(1,numberOfEntries);
-
         System.out.println();
-        System.out.println();
-        System.out.println("Do you wish to alter the entry? (yes / no)");
 
-        temp = getYesOrNo();
+
+        System.out.print("Do you wish to alter the entry? (yes / no)   :");
+        String temp = getYesOrNo();
+        System.out.println();
+
         if(isYes(temp)){
             method = "POST";
         }else {
