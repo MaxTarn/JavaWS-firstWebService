@@ -10,7 +10,6 @@ public class Request {
 
     Scanner in = new Scanner(System.in);
     Json json = new Json();
-    String input = null;
 
 
     int chosenEntry;
@@ -132,6 +131,15 @@ public class Request {
 
 
 
+    }
+
+    public JSONObject makeAlterRequest(){
+        boolean wantsToAlter = false;
+
+        while(!wantsToAlter){
+            System.out.println("What line do you wish to edit");
+        }
+        return null;
     }
 
 }
