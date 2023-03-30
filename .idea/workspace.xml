@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed display(), and added alter() that will alter the JSON data in the file">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="made jsonPath private">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
     </list>
@@ -50,30 +52,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/CodingStuff/Dependencies/json-simple-1.1.1.jar&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/CodingStuff/Dependencies/json-simple-1.1.1.jar",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "settings.json.schema",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JSP&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JSP"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
@@ -245,28 +248,7 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="9938000" />
-    </task>
-    <task id="LOCAL-00037" summary="tests init() , initCommunication() , initSockets(), added method to check if readers/writers/scanner/socket is not null">
-      <created>1679649829258</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1679649829258</updated>
-    </task>
-    <task id="LOCAL-00038" summary="reset() closes all open writers/readers/socket/scanner, before setting them to null">
-      <created>1679649871710</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1679649871710</updated>
-    </task>
-    <task id="LOCAL-00039" summary="close() now also closes 'scanner'">
-      <created>1679650097067</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1679650097067</updated>
+      <workItem from="1680162129365" duration="21008000" />
     </task>
     <task id="LOCAL-00040" summary="init() no longer returns bool">
       <created>1679650131738</created>
@@ -590,7 +572,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680182229739</updated>
     </task>
-    <option name="localTasksCounter" value="86" />
+    <task id="LOCAL-00086" summary="added display() that takes a single person and prints out the values in a readable fashion">
+      <created>1680182347844</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1680182347844</updated>
+    </task>
+    <task id="LOCAL-00087" summary="added file that can be used as a reference, allPersons.json will be rewritten and edited, that makes it very hard to read the values, allPersons(forHumanEyes).json is meant to be read">
+      <created>1680199303640</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1680199303640</updated>
+    </task>
+    <task id="LOCAL-00088" summary="made jsonPath private">
+      <created>1680199456847</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1680199456847</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,9 +611,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="all JSON data is now in allPersons.json , removed the other JSON files" />
-    <MESSAGE value="before code was written for multiple files, now code is written for one larger file." />
-    <MESSAGE value="added getYesOrNo() that gets 'yes'  /'no' from console, added isYesOrNo() that checks if string is 'yes' / 'no' , added getInputBetween() that gets an integer from console that falls between the two integer parameters" />
     <MESSAGE value="renamed make() to makeRequest(), asks what entry the user wants to access" />
     <MESSAGE value="make() is now makeRequest()" />
     <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
@@ -633,7 +633,21 @@
     <MESSAGE value="now displays the requested person in a readable way" />
     <MESSAGE value="removed println only used for troubleshooting" />
     <MESSAGE value="removed display(), and added alter() that will alter the JSON data in the file" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed display(), and added alter() that will alter the JSON data in the file" />
+    <MESSAGE value="added display() that takes a single person and prints out the values in a readable fashion" />
+    <MESSAGE value="added file that can be used as a reference, allPersons.json will be rewritten and edited, that makes it very hard to read the values, allPersons(forHumanEyes).json is meant to be read" />
+    <MESSAGE value="made jsonPath private" />
+    <option name="LAST_COMMIT_MESSAGE" value="made jsonPath private" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MainClient.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
