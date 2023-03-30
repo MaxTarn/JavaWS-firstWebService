@@ -42,9 +42,6 @@ public class MainServer {
                     System.out.println("invalid");
                     break;
             }
-            server.sendMessege("gdgdfgdfgd");
-
-            server.sendMessege("sf");
 
 
 
