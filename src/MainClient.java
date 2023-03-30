@@ -14,7 +14,7 @@ public class MainClient {
     static String messege;
 
 
-    static void sendNewRequest(){
+    static void makeAndSendRequest(){
         JSONObject request = requestMaker.makeRequest();
         String requestString = request.toJSONString();
         client.sendMessege(requestString);
@@ -88,7 +88,7 @@ public class MainClient {
             }
 
             if(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("y")){
-                sendNewRequest();
+                makeAndSendRequest();
 
                 JSONObject response = getResponse();
                 System.out.println();
