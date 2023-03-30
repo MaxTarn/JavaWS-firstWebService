@@ -170,10 +170,6 @@ public class Json {
           System.out.println("Failed to save the added person");
        }
 
-
-
-
-
     }
 
 }
