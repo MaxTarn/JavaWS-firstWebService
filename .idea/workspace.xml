@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="made jsonPath private">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
-    </list>
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -248,42 +242,7 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="21008000" />
-    </task>
-    <task id="LOCAL-00040" summary="init() no longer returns bool">
-      <created>1679650131738</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1679650131738</updated>
-    </task>
-    <task id="LOCAL-00041" summary="spelling mistake">
-      <created>1679650609728</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1679650609728</updated>
-    </task>
-    <task id="LOCAL-00042" summary="communication() tests the communication between Server and Client , not working at the moment">
-      <created>1679651664573</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1679651664573</updated>
-    </task>
-    <task id="LOCAL-00043" summary="background files">
-      <created>1679651689789</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1679651689789</updated>
-    </task>
-    <task id="LOCAL-00044" summary="removed setPersonPath() for person 1 &amp; 2 &amp; 3">
-      <created>1679677204922</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1679677204922</updated>
+      <workItem from="1680162129365" duration="21799000" />
     </task>
     <task id="LOCAL-00045" summary="convertToJson() now returns a JSONObject">
       <created>1679678430117</created>
@@ -593,7 +552,42 @@
       <option name="project" value="LOCAL" />
       <updated>1680199456847</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL-00089" summary="added isJsonPerson() that checks if JsonObject is made like a person from allPersons.json, renamed alter() to alterPerson()">
+      <created>1680201215332</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201215332</updated>
+    </task>
+    <task id="LOCAL-00090" summary="testing diffrent method">
+      <created>1680201244763</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201244763</updated>
+    </task>
+    <task id="LOCAL-00091" summary="renamed sendNewRequest() to makeAndSendRequest() for improved clarity">
+      <created>1680201333836</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201333836</updated>
+    </task>
+    <task id="LOCAL-00092" summary="added addPerson() that will add a JsonObject to allPersons.java, not working at the moment">
+      <created>1680201548967</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201548967</updated>
+    </task>
+    <task id="LOCAL-00093" summary="background files">
+      <created>1680201567781</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1680201567781</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -611,10 +605,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="renamed make() to makeRequest(), asks what entry the user wants to access" />
-    <MESSAGE value="make() is now makeRequest()" />
-    <MESSAGE value="used as a placeholder for the request that wil be sent to the server, from the client" />
-    <MESSAGE value="added isYes() that returns true when input is 'yes', and false when 'no', and null when neither" />
     <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
     <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
     <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
@@ -628,7 +618,6 @@
     <MESSAGE value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
     <MESSAGE value="the @Test tests dont work now??? i dont know wtf happened" />
     <MESSAGE value="tried to make it so that you can start MainClient before you start MainServer, but failed" />
-    <MESSAGE value="background files" />
     <MESSAGE value="improved readability of client side console" />
     <MESSAGE value="now displays the requested person in a readable way" />
     <MESSAGE value="removed println only used for troubleshooting" />
@@ -636,7 +625,12 @@
     <MESSAGE value="added display() that takes a single person and prints out the values in a readable fashion" />
     <MESSAGE value="added file that can be used as a reference, allPersons.json will be rewritten and edited, that makes it very hard to read the values, allPersons(forHumanEyes).json is meant to be read" />
     <MESSAGE value="made jsonPath private" />
-    <option name="LAST_COMMIT_MESSAGE" value="made jsonPath private" />
+    <MESSAGE value="added isJsonPerson() that checks if JsonObject is made like a person from allPersons.json, renamed alter() to alterPerson()" />
+    <MESSAGE value="testing diffrent method" />
+    <MESSAGE value="renamed sendNewRequest() to makeAndSendRequest() for improved clarity" />
+    <MESSAGE value="added addPerson() that will add a JsonObject to allPersons.java, not working at the moment" />
+    <MESSAGE value="background files" />
+    <option name="LAST_COMMIT_MESSAGE" value="background files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

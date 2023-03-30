@@ -1,0 +1,5 @@
+{"1":{"firstName":"Bilbo","lastName":"Baggins","gender":"male","species":"human","Features":{"nose":"large","eyeColor":"blue","hairColor":"brown"},"age":"46"},
+  "2":{"firstName":"Smaug","lastName":"TheDragon","gender":"male","species":"dragon","Features":{"nose":"gigantic","eyeColor":"red","hairColor":"none"},"age":"1000"},
+  "3":{"firstName":"Grogu","lastName":"unknown","gender":"unknown","species":"babyyoda","Features":{"nose":"small","eyeColor":"darkbrown","hairColor":"sparse"},"age":"50"},
+  "4":{"firstName":"Darth","lastName":"Vader","gender":"Cyborg","species":"human","Features":{"nose":"normal","eyeColor":"yellow","hairColor":"none"},"age":"45"},
+  "length":4}
