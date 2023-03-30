@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed display(), and added alter() that will alter the JSON data in the file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -245,35 +245,7 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="6359000" />
-    </task>
-    <task id="LOCAL-00033" summary="background files">
-      <created>1679647023660</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1679647023660</updated>
-    </task>
-    <task id="LOCAL-00034" summary="added 'method' , 'content', and 'parameters'">
-      <created>1679647096307</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1679647096307</updated>
-    </task>
-    <task id="LOCAL-00035" summary="testing a good port, that should be available">
-      <created>1679647811441</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1679647811441</updated>
-    </task>
-    <task id="LOCAL-00036" summary="added reset() that sets all readers / writers/ socket/ scanner to null">
-      <created>1679648864143</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1679648864143</updated>
+      <workItem from="1680162129365" duration="9938000" />
     </task>
     <task id="LOCAL-00037" summary="tests init() , initCommunication() , initSockets(), added method to check if readers/writers/scanner/socket is not null">
       <created>1679649829258</created>
@@ -590,7 +562,35 @@
       <option name="project" value="LOCAL" />
       <updated>1680036012458</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="improved readability of client side console">
+      <created>1680170132904</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1680170132905</updated>
+    </task>
+    <task id="LOCAL-00083" summary="now displays the requested person in a readable way">
+      <created>1680181924355</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1680181924355</updated>
+    </task>
+    <task id="LOCAL-00084" summary="removed println only used for troubleshooting">
+      <created>1680181977486</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1680181977486</updated>
+    </task>
+    <task id="LOCAL-00085" summary="removed display(), and added alter() that will alter the JSON data in the file">
+      <created>1680182229739</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1680182229739</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,10 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="used for making MakeRequest.java class" />
-    <MESSAGE value="added MakeRequest.java that will build the request sent to the server" />
-    <MESSAGE value="found error, it was supposed to be -1 and not +1" />
-    <MESSAGE value="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray" />
     <MESSAGE value="all JSON data is now in allPersons.json , removed the other JSON files" />
     <MESSAGE value="before code was written for multiple files, now code is written for one larger file." />
     <MESSAGE value="added getYesOrNo() that gets 'yes'  /'no' from console, added isYesOrNo() that checks if string is 'yes' / 'no' , added getInputBetween() that gets an integer from console that falls between the two integer parameters" />
@@ -633,7 +629,11 @@
     <MESSAGE value="the @Test tests dont work now??? i dont know wtf happened" />
     <MESSAGE value="tried to make it so that you can start MainClient before you start MainServer, but failed" />
     <MESSAGE value="background files" />
-    <option name="LAST_COMMIT_MESSAGE" value="background files" />
+    <MESSAGE value="improved readability of client side console" />
+    <MESSAGE value="now displays the requested person in a readable way" />
+    <MESSAGE value="removed println only used for troubleshooting" />
+    <MESSAGE value="removed display(), and added alter() that will alter the JSON data in the file" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed display(), and added alter() that will alter the JSON data in the file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
