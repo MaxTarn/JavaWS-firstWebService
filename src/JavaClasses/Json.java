@@ -6,7 +6,7 @@ import org.json.simple.parser.JSONParser;
 import java.io.*;
 
 public class Json {
-    final String jsonPath = "src/JSON/allPersons.json";
+    private final String jsonPath = "src/JSON/allPersons.json";
 
     public String getJsonPath(){return jsonPath;}
 
