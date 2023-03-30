@@ -69,7 +69,9 @@ public class MainClient {
                 sendNewRequest();
 
                 JSONObject response = getResponse();
-                System.out.println(response.toJSONString());
+                System.out.println();
+                System.out.println("Response:");
+                json.display(response);
 
             }
             System.out.println("- - - - - - - - - - - - - - - - - ");
