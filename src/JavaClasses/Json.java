@@ -144,4 +144,32 @@ public class Json {
        return null;
     }
 
+    public void addPerson(JSONObject personToAdd){
+       if (!isJsonPerson(personToAdd)){
+          return;
+       }
+
+       JSONObject allPersons = getJsonObjFromFile(getJsonPath());
+       int length = Integer.parseInt(allPersons.get("length").toString());
+       length += 1;
+
+       allPersons.put(length, personToAdd);
+       allPersons.replace("length", length);
+
+
+
+       File file = new File(getJsonPath());
+       FileWriter writer;
+       try {
+
+       }catch (Exception ex){
+          System.out.println(ex.getMessage());
+       }
+
+
+
+
+
+    }
+
 }
