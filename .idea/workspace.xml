@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="addPerson() now works">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/allPersons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -242,14 +247,7 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="21799000" />
-    </task>
-    <task id="LOCAL-00045" summary="convertToJson() now returns a JSONObject">
-      <created>1679678430117</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1679678430117</updated>
+      <workItem from="1680162129365" duration="26375000" />
     </task>
     <task id="LOCAL-00046" summary="fixed problem with getStringFromFile(), returning 'null' at the beginning of returned String">
       <created>1679680233251</created>
@@ -587,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680201567781</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL-00094" summary="background files">
+      <created>1680202224137</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1680202224137</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -605,7 +610,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="made objectkey into primary key (id), every JSONobject is now named the same as the primary key of each object, primary key removed" />
     <MESSAGE value="MainClient now makes a JSON request and sends it to MainServer. It looks like the JSON request is usable in the server" />
     <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
     <MESSAGE value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
@@ -630,18 +634,8 @@
     <MESSAGE value="renamed sendNewRequest() to makeAndSendRequest() for improved clarity" />
     <MESSAGE value="added addPerson() that will add a JsonObject to allPersons.java, not working at the moment" />
     <MESSAGE value="background files" />
-    <option name="LAST_COMMIT_MESSAGE" value="background files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/MainClient.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="addPerson() now works" />
+    <option name="LAST_COMMIT_MESSAGE" value="addPerson() now works" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
