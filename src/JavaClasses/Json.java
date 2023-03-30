@@ -146,7 +146,7 @@ public class Json {
 
     public void addPerson(JSONObject personToAdd){
        if (!isJsonPerson(personToAdd)){
-          return;
+          System.out.println("The attempt to save the person failed because the person added did not fit the criteria.");
        }
 
        JSONObject allPersons = getJsonObjFromFile(getJsonPath());
@@ -158,12 +158,16 @@ public class Json {
 
 
 
-       File file = new File(getJsonPath());
+       File file;
        FileWriter writer;
        try {
-
+          file = new File(getJsonPath());
+          writer = new FileWriter(file);
+          writer.write(allPersons.toJSONString());
+          writer.flush();
+          writer.close();
        }catch (Exception ex){
-          System.out.println(ex.getMessage());
+          System.out.println("Failed to save the added person");
        }
 
 
