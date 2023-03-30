@@ -75,9 +75,73 @@ public class Json {
         }
     }
 
+    boolean isJsonPerson(JSONObject person){
+       String firstName= person.get("firstName").toString();
+       String lastName = person.get("lastName").toString();
+       String age = person.get("age").toString();
+       String species = person.get("species").toString();
+       String gender = person.get("gender").toString();
 
-    public void alter(String personId, JSONObject newValues){
+       JSONObject features = (JSONObject) person.get("Features");
+       String hairColor = features.get("hairColor").toString();
+       String eyeColor = features.get("eyeColor").toString();
+       String nose = features.get("nose").toString();
 
+       if (firstName != null &&
+               lastName != null &&
+               age != null &&
+               species != null &&
+               gender != null &&
+               hairColor != null &&
+               eyeColor != null &&
+               nose != null ){
+
+          return true;
+
+       }else{
+          return false;
+       }
+
+
+    }
+
+
+
+    //reads the json file and changes
+    public String alterPerson(String personId, String valueName, String value){
+       JSONObject allPersons = getJsonObjFromFile(jsonPath);
+
+
+       int length = Integer.parseInt(allPersons.get("length").toString());
+       int personIdINT = Integer.parseInt(personId);
+
+
+       //exits method when personId is out of bounds
+       if (length < personIdINT || personIdINT <= 0){
+          return "invalid personId";
+       }
+
+       System.out.println("taken from allPersons  "+ allPersons.get(personId).toString());
+
+       JSONObject personToAlter = getPerson(allPersons, personId);
+       System.out.println("taken from person to alterPerson" + personToAlter.toString());
+
+       personToAlter.replace(valueName, value);
+
+       allPersons.replace(personId, personToAlter);
+
+       File file = new File(getJsonPath());
+       FileWriter writer;
+       try {
+          writer= new FileWriter(file);
+          writer.write(allPersons.toString());
+          writer.flush();
+          writer.close();
+       }catch (Exception ex){
+          System.out.println(ex.getMessage());
+          return "could not write to file";
+       }
+       return null;
     }
 
 }
