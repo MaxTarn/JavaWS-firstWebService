@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files">
-      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,21 +245,7 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="26731000" />
-    </task>
-    <task id="LOCAL-00049" summary="removed the method from the JSON files, it shouldn't have been there">
-      <created>1679780926337</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1679780926337</updated>
-    </task>
-    <task id="LOCAL-00050" summary="JSON paths are in an array, instead of variable">
-      <created>1679782189450</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1679782189450</updated>
+      <workItem from="1680162129365" duration="28547000" />
     </task>
     <task id="LOCAL-00051" summary="added getJsonFromFile() that returns JSONObject made from local file">
       <created>1679784409238</created>
@@ -589,7 +576,21 @@
       <option name="project" value="LOCAL" />
       <updated>1680206670322</updated>
     </task>
-    <option name="localTasksCounter" value="98" />
+    <task id="LOCAL-00098" summary="removed empty lines">
+      <created>1680206790169</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1680206790169</updated>
+    </task>
+    <task id="LOCAL-00099" summary="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server">
+      <created>1680215931840</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1680215931840</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -607,8 +608,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed 'hair' to 'hairColor', changed 'eyes' to 'eyeColor'" />
-    <MESSAGE value="added display() that takes in a single person from allPersons.json, and prints in console its different properties" />
     <MESSAGE value="added getPerson() that takes in the entire JsonData and returns the chosen person, from parameter" />
     <MESSAGE value="testing getPerson()" />
     <MESSAGE value="prints out messege from server" />
@@ -632,7 +631,9 @@
     <MESSAGE value="addPerson() now works" />
     <MESSAGE value="used FileWriter on this file" />
     <MESSAGE value="background files" />
-    <option name="LAST_COMMIT_MESSAGE" value="background files" />
+    <MESSAGE value="removed empty lines" />
+    <MESSAGE value="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server" />
+    <option name="LAST_COMMIT_MESSAGE" value="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -32,13 +32,13 @@ public class MainClient {
         String nose = features.get("nose").toString();
 
 
-        System.out.println("Name: " + firstName + " " + lastName);
-        System.out.println("Age: " + age);
-        System.out.println("Species: " + species);
-        System.out.println("Gender: " + gender);
-        System.out.println("Hair color: " + hairColor);
-        System.out.println("Eye color: " + eyeColor);
-        System.out.println("Nose: " + nose);
+        System.out.println("1. Name: " + firstName + " " + lastName);
+        System.out.println("2. Age: " + age);
+        System.out.println("3. Species: " + species);
+        System.out.println("4. Gender: " + gender);
+        System.out.println("5. Hair color: " + hairColor);
+        System.out.println("6. Eye color: " + eyeColor);
+        System.out.println("7. Nose: " + nose);
 
     }
 
