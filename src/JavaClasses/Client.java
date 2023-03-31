@@ -4,7 +4,12 @@ import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
+
+//handles the client side os the application
+//
 public class Client {
+
+    //varios reader / writers / socket that are need for the communication between client and sever
     Socket socket = null;
     InputStreamReader inputStreamReader = null;
     BufferedReader bufferedReader = null;
@@ -30,15 +35,13 @@ public class Client {
         return outputStreamWriter;
     }
 
-    public BufferedWriter getBufferedWriter() {
-        return bufferedWriter;
-    }
+    public BufferedWriter getBufferedWriter() {return bufferedWriter;}
 
     public Scanner getScanner() {
         return scanner;
     }
 
-    //initializes the things needed
+    //initializes the readers / writers /socket
     public void init(int portNumber){
         try {
             initSockets(portNumber);
@@ -47,6 +50,8 @@ public class Client {
             System.out.println(ex.getMessage());
         }
     }
+
+    //initializes the socket
     public void initSockets(int portNumber){
         try {
             socket = new Socket("localhost", portNumber);
@@ -55,6 +60,7 @@ public class Client {
         }
     }
 
+    //initializes the readers / writers
     public void initCommunication(){
         try {
             inputStreamReader = new InputStreamReader(socket.getInputStream());
@@ -67,6 +73,7 @@ public class Client {
         }
     }
 
+    //checks if the different readers / writers / socket are assigned a value and not null
     public boolean connectionIsGood(){
         if(     socket != null &&
                 inputStreamReader != null &&
@@ -81,6 +88,7 @@ public class Client {
         }
     }
 
+    //reads the incoming communication coming from server, through socket
     public String getMessege(){
         try {
             messege = bufferedReader.readLine();
@@ -90,10 +98,13 @@ public class Client {
             return null;
         }
     }
+
+    //returns input from console, as a String
     public String getInput(){
         return scanner.nextLine();
     }
 
+    //sends a string to the server, most likely in a JSON format
     public void sendMessege(String sendThis){
         try{
             bufferedWriter.write(sendThis);
@@ -117,16 +128,6 @@ public class Client {
         }catch (Exception ex){
             System.out.println(ex.getMessage());
         }
-    }
-
-    public void reset(){
-        this.close();
-        socket = null;
-        inputStreamReader = null;
-        bufferedReader = null;
-        outputStreamWriter = null;
-        bufferedWriter = null;
-        scanner = null;
     }
 
 }

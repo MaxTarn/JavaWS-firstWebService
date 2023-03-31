@@ -5,6 +5,10 @@ import org.json.simple.JSONObject;
 
 import java.util.Scanner;
 
+
+//makes the GET and the POST requests
+//from user input in the console
+
 public class Request {
     JSONObject request = new JSONObject();
 

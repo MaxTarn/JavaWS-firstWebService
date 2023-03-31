@@ -5,11 +5,18 @@ import org.json.simple.parser.JSONParser;
 
 import java.io.*;
 
+//dels with getting and altering the local JSON file
+//has various methods that help with handling of JSON
+
 public class Json {
+
+   //the local path of the JSON file
     private final String jsonPath = "src/JSON/allPersons.json";
 
+    //returns the path for the local JSON file
     public String getJsonPath(){return jsonPath;}
 
+   //checks if there is a file at a certain path
     public boolean fileExists(String filePath){
         File path = new File(filePath);
         return path.exists();
@@ -41,6 +48,7 @@ public class Json {
         return null;
     }
 
+    //takes in a String and then converts it to a JSONObject
     public JSONObject convertToJsonObject(String jsonString){
         JSONParser parser = new JSONParser();
         Object obj;
@@ -53,10 +61,12 @@ public class Json {
 
     }
 
+    //returns the entire local JSON file as a JSONObject
     public JSONObject getJsonObjFromFile(String filePath){
         return convertToJsonObject(getStringFromFile(filePath));
     }
 
+    //takes in the entire local JSON file, and a person ID, returns a single JSONObject that is a single person
     public JSONObject getPerson(JSONObject jsonObj, String personId){
         int length;
         int personIdInt;
@@ -75,6 +85,7 @@ public class Json {
         }
     }
 
+    //checks if all the fields are assigned a value, and not null
     public boolean isJsonPerson(JSONObject person){
        String firstName= person.get("firstName").toString();
        String lastName = person.get("lastName").toString();
@@ -106,8 +117,7 @@ public class Json {
     }
 
 
-
-    //reads the json file and changes
+   //alters the local file, alters only a single value
     public String alterPerson(String personId, String valueName, String value){
        JSONObject allPersons = getJsonObjFromFile(jsonPath);
 
@@ -140,6 +150,8 @@ public class Json {
        }
        return null;
     }
+
+    //alters the local file, alters everything that has been changed
     public void alterPerson(String personId, JSONObject alteredPerson){
        JSONObject allPersons = getJsonObjFromFile(jsonPath);
 
@@ -165,6 +177,7 @@ public class Json {
 
     }
 
+    //adds an entire person to the local JSON file
     public void addPerson(JSONObject personToAdd){
        if (!isJsonPerson(personToAdd)){
           System.out.println("The attempt to save the person failed because the person added did not fit the criteria.");

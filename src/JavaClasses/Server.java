@@ -10,6 +10,10 @@ import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+
+//class that handles the server side of the application
+
+
 public class Server {
 
     ServerSocket serverSocket = null;

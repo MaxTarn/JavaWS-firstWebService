@@ -2,7 +2,13 @@ import JavaClasses.Json;
 import JavaClasses.Request;
 import org.json.simple.JSONObject;
 
-//used for testing new methods and new code snippets
+//ONLY used for testing new methods and new code snippets
+
+//IF YOU WANT TO LAUNCH THE APPLICATION:
+//1. START MainServer
+//2. START MainClient
+//3. ANSWER QUESTIONS IN THE CONSOLE OF MainClient
+
 public class Main {
 
     public static void main(String[] args) {

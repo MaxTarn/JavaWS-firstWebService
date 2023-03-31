@@ -2,7 +2,6 @@ package Tests;
 
 import JavaClasses.Client;
 import JavaClasses.Json;
-import JavaClasses.Server;
 import org.json.simple.JSONObject;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -30,6 +29,7 @@ public class ClientAndServerTest {
         assertEquals(client.getSocket().getPort(), portNumber);
     }
 
+    ////initailizes the client and then tests if the readers/writers/socket are assigned and not null
     @Test
     void initSocketsInitCommunicationClient(){
         Client client = new Client();
@@ -41,6 +41,8 @@ public class ClientAndServerTest {
         client.close();
     }
 
+
+    //initailizes the client and then tests if the readers/writers/socket are assigned and not null
     @Test
     void initClient(){
         Client client = new Client();
@@ -51,6 +53,7 @@ public class ClientAndServerTest {
     }
 
 
+    //tests if there is something wrong in the structure of the local JSON file
     @Test
     void jsonFileIsGood(){
         Json json = new Json();
@@ -63,12 +66,13 @@ public class ClientAndServerTest {
         assertTrue(json.isJsonPerson(json.getPerson(allPersons, length)));
     }
 
+
+    //test if you can alter the local JSON file
     @Test
     void alterJsonFile(){
         Json json = new Json();
         JSONObject allPersons = json.getJsonObjFromFile(json.getJsonPath());
         JSONObject firstPerson = (JSONObject) allPersons.get("1");
-        String oldAge = firstPerson.get("age").toString();
         firstPerson.replace("age", "42069");
 
         json.alterPerson("1", firstPerson);
