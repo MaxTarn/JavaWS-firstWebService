@@ -71,7 +71,6 @@ public class MainClient {
 
 
     public static void main(String[] args)  {
-        //TODO add switch case for when user wants to edit the entry
 
         System.out.println("Connecting to server.");
 
