@@ -65,7 +65,7 @@ public class Request {
 
     }
 
-    Boolean isYes(String input){
+    public Boolean inputFromConsoleIsYes(String input){
         if (isYesOrNo(input)){
             return input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y");
         }else {
@@ -73,7 +73,7 @@ public class Request {
         }
     }
 
-    String getYesOrNo(){
+    public String getYesOrNoFromConsole(){
         boolean goodInput = false;
         String temp = null;
         do {
@@ -111,15 +111,7 @@ public class Request {
         System.out.println();
 
 
-        System.out.print("Do you wish to alter the entry? (yes / no)   :");
-        String temp = getYesOrNo();
-        System.out.println();
-
-        if(isYes(temp)){
-            method = "POST";
-        }else {
-            method = "GET";
-        }
+        method = "GET";
         request.put("HTTPMethod", method);
         request.put("ContentType", contentType);
         request.put("URLParameters", "person/" + (chosenEntry));
@@ -158,7 +150,7 @@ public class Request {
 
             case 1:
                 personToAlter.replace(keyNames[0], newFirstName);
-                personToAlter.replace(keyNames[1], newFirstName);
+                personToAlter.replace(keyNames[1], newLastName);
                 break;
             case 2:
                 personToAlter.replace(keyNames[2], newValue);
@@ -197,7 +189,6 @@ public class Request {
 
         request.put("body", requestBody);
 
-        System.out.println(request.toString());
         return  request;
 
     }

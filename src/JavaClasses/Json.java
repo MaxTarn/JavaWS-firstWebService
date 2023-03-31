@@ -140,6 +140,30 @@ public class Json {
        }
        return null;
     }
+    public void alterPerson(String personId, JSONObject alteredPerson){
+       JSONObject allPersons = getJsonObjFromFile(jsonPath);
+
+       int length = Integer.parseInt(allPersons.get("length").toString());
+       int personIdINT = Integer.parseInt(personId);
+
+       if (length < personIdINT || personIdINT <= 0){
+          return;
+       }
+
+       allPersons.replace(personId, alteredPerson);
+
+       File file = new File(getJsonPath());
+       FileWriter writer;
+       try {
+          writer= new FileWriter(file);
+          writer.write(allPersons.toString());
+          writer.flush();
+          writer.close();
+       }catch (Exception ex){
+          System.out.println(ex.getMessage());
+       }
+
+    }
 
     public void addPerson(JSONObject personToAdd){
        if (!isJsonPerson(personToAdd)){

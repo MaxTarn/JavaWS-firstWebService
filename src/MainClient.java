@@ -12,12 +12,18 @@ public class MainClient {
     static JSONParser parser = new JSONParser();
     static Json json = new Json();
     static String messege;
+    static JSONObject request;
 
 
-    static void makeAndSendRequest(){
-        JSONObject request = requestMaker.makeRequest();
+    static String makeAndSendRequest(){
+        request = requestMaker.makeRequest();
         String requestString = request.toJSONString();
         client.sendMessege(requestString);
+        return getUserIdFromURL(request.get("URLParameters").toString());
+    }
+    static String getUserIdFromURL(String url){
+        String[] temp = url.split("/");
+        return temp[1];
     }
     public static void display(JSONObject person){
         JSONObject features = (JSONObject) person.get("Features");
@@ -71,7 +77,7 @@ public class MainClient {
 
 
         while(!client.connectionIsGood()){
-            client.init(6969);
+            client.init(7070);
         }
         System.out.println("Connected to server.");
 
@@ -89,12 +95,40 @@ public class MainClient {
             }
 
             if(answer.equalsIgnoreCase("yes") || answer.equalsIgnoreCase("y")){
-                makeAndSendRequest();
+                String userID = makeAndSendRequest();
 
                 JSONObject response = getResponse();
                 System.out.println();
                 System.out.println("Response:");
                 display(response);
+                System.out.println();
+                System.out.println();
+
+
+                boolean wantsToEdit = true;
+                do {
+                    System.out.println("- - - -");
+                    System.out.print("Do you want to edit the values?  (accepted inputs: yes / no)    :");
+                    System.out.println();
+                    String input = requestMaker.getYesOrNoFromConsole();
+
+                    if(input.equalsIgnoreCase("yes") || input.equalsIgnoreCase("y")){
+                        client.sendMessege(requestMaker.makeAlterRequest(response, userID).toString());
+                        JSONObject newResponse = getResponse();
+                        System.out.println();
+                        System.out.println("Response:");
+                        display(newResponse);
+                        System.out.println();
+                        System.out.println();
+                    }else{
+                        wantsToEdit = false;
+                    }
+                }while(wantsToEdit);
+
+
+
+
+
 
             }
             System.out.println("- - - - - - - - - - - - - - - - - ");

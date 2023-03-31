@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added TODO for a broad generalization for what needs to be done">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="background files">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-24_09_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2023-03-24_09_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JSON/allPersons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -249,28 +252,8 @@
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
       <workItem from="1680162129365" duration="28671000" />
-      <workItem from="1680246327186" duration="9463000" />
-    </task>
-    <task id="LOCAL-00054" summary="used for making MakeRequest.java class">
-      <created>1679787942739</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1679787942739</updated>
-    </task>
-    <task id="LOCAL-00055" summary="added MakeRequest.java that will build the request sent to the server">
-      <created>1679788020317</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1679788020317</updated>
-    </task>
-    <task id="LOCAL-00056" summary="found error, it was supposed to be -1 and not +1">
-      <created>1679832319703</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1679832319704</updated>
+      <workItem from="1680246327186" duration="13503000" />
+      <workItem from="1680270545841" duration="1004000" />
     </task>
     <task id="LOCAL-00057" summary="convertToJsonObject() returns Object, getJsonObjectFromFile() returns JsonObject, getJsonArrayFromFile() returns JsonArray">
       <created>1679833986058</created>
@@ -594,7 +577,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680256511721</updated>
     </task>
-    <option name="localTasksCounter" value="103" />
+    <task id="LOCAL-00103" summary="removed not needed println">
+      <created>1680261153181</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261153181</updated>
+    </task>
+    <task id="LOCAL-00104" summary="added makeAlterRequest() that returns a POST request">
+      <created>1680261233467</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261233467</updated>
+    </task>
+    <task id="LOCAL-00105" summary="background files">
+      <created>1680261257574</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1680261257574</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,8 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="prints out messege from server" />
-    <MESSAGE value="slowly implementing the required features" />
     <MESSAGE value="client can now send request to server, and server can now send back a good response" />
     <MESSAGE value="added way to get out of infinite loop in MainClient, by entering 'quit'" />
     <MESSAGE value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
@@ -632,12 +634,14 @@
     <MESSAGE value="added addPerson() that will add a JsonObject to allPersons.java, not working at the moment" />
     <MESSAGE value="addPerson() now works" />
     <MESSAGE value="used FileWriter on this file" />
-    <MESSAGE value="background files" />
     <MESSAGE value="removed empty lines" />
     <MESSAGE value="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server" />
     <MESSAGE value="added line number for each of the printed JSON variables" />
     <MESSAGE value="added TODO for a broad generalization for what needs to be done" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TODO for a broad generalization for what needs to be done" />
+    <MESSAGE value="removed not needed println" />
+    <MESSAGE value="added makeAlterRequest() that returns a POST request" />
+    <MESSAGE value="background files" />
+    <option name="LAST_COMMIT_MESSAGE" value="background files" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -14,32 +14,40 @@ public class MainServer {
         Json json = new Json();
 
         JSONParser parser = new JSONParser();
-        JSONObject allPersons = json.getJsonObjFromFile(json.getJsonPath());
+        JSONObject allPersons;
         String messege;
 
         //initiates server object
-        server.init(6969);
+        server.init(7070);
 
         //will contain messege from client
 
 
 
         while(true){
+
+
             messege = server.getMessege();
+
             JSONObject request = (JSONObject)parser.parse(messege);
             String parameters = request.get("URLParameters").toString();
             String[] parametersArray = parameters.split("/");
 
-            switch (parametersArray[0]){
+            String method = request.get("HTTPMethod").toString();
 
-                case "person":
+            switch (method){
+
+                case "POST":
+                    JSONObject requestBody = (JSONObject) request.get("body");
+                    JSONObject alteredPerson = (JSONObject) requestBody.get(parametersArray[1]);
+                    json.alterPerson(parametersArray[1], alteredPerson);
+
+
+                case "GET":
+                    allPersons = json.getJsonObjFromFile(json.getJsonPath());
                     JSONObject person = json.getPerson(allPersons,parametersArray[1]);
                     person.put("ResponseCode", "200");
                     server.sendMessege(person.toJSONString());
-                    break;
-
-                default:
-                    System.out.println("invalid");
                     break;
             }
 
