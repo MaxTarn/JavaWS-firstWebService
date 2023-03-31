@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="added TODO for a broad generalization for what needs to be done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/allPersons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Request.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,31 +52,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/CodingStuff/Dependencies/json-simple-1.1.1.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "settings.json.schema",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/CodingStuff/Dependencies/json-simple-1.1.1.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.json.schema&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "JSP"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;JSP&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
@@ -245,28 +248,8 @@
       <workItem from="1679917186491" duration="16364000" />
       <workItem from="1680005495045" duration="3758000" />
       <workItem from="1680035404150" duration="688000" />
-      <workItem from="1680162129365" duration="28547000" />
-    </task>
-    <task id="LOCAL-00051" summary="added getJsonFromFile() that returns JSONObject made from local file">
-      <created>1679784409238</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1679784409238</updated>
-    </task>
-    <task id="LOCAL-00052" summary="added getPersonPath(), takes in an integer and returns the person path based on that integer">
-      <created>1679787805836</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1679787805836</updated>
-    </task>
-    <task id="LOCAL-00053" summary="used for making MakeRequest.java class">
-      <created>1679787932230</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1679787932230</updated>
+      <workItem from="1680162129365" duration="28671000" />
+      <workItem from="1680246327186" duration="9463000" />
     </task>
     <task id="LOCAL-00054" summary="used for making MakeRequest.java class">
       <created>1679787942739</created>
@@ -590,7 +573,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680215931840</updated>
     </task>
-    <option name="localTasksCounter" value="100" />
+    <task id="LOCAL-00100" summary="added line number for each of the printed JSON variables">
+      <created>1680216118071</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1680216118071</updated>
+    </task>
+    <task id="LOCAL-00101" summary="added TODO for a broad generalization for what needs to be done">
+      <created>1680256503986</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1680256503986</updated>
+    </task>
+    <task id="LOCAL-00102" summary="added TODO for a broad generalization for what needs to be done">
+      <created>1680256511721</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1680256511721</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,8 +612,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added getPerson() that takes in the entire JsonData and returns the chosen person, from parameter" />
-    <MESSAGE value="testing getPerson()" />
     <MESSAGE value="prints out messege from server" />
     <MESSAGE value="slowly implementing the required features" />
     <MESSAGE value="client can now send request to server, and server can now send back a good response" />
@@ -633,7 +635,9 @@
     <MESSAGE value="background files" />
     <MESSAGE value="removed empty lines" />
     <MESSAGE value="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server" />
-    <option name="LAST_COMMIT_MESSAGE" value="added makeAlterRequest() that will make a JsonObject that will contain the data for a POST request to the server" />
+    <MESSAGE value="added line number for each of the printed JSON variables" />
+    <MESSAGE value="added TODO for a broad generalization for what needs to be done" />
+    <option name="LAST_COMMIT_MESSAGE" value="added TODO for a broad generalization for what needs to be done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
