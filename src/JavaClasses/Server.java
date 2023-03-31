@@ -19,6 +19,19 @@ public class Server {
     OutputStreamWriter outputStreamWriter = null;
     BufferedWriter bufferedWriter = null;
     String messege = null;
+    public boolean connectionIsGood(){
+        if(     serverSocket != null &&
+                socket != null &&
+                inputStreamReader != null &&
+                bufferedReader != null &&
+                outputStreamWriter != null &&
+                bufferedWriter != null ){
+            return true;
+
+        }else{
+            return false;
+        }
+    }
 
     //initializes the things needed
     public void init(int portNumber){
@@ -28,15 +41,8 @@ public class Server {
 
     //initializes the sockets
     public void initSockets(int portNumber){
-        //sets the port of the server, taken as argument
         try {
             serverSocket = new ServerSocket(portNumber);
-        }catch (Exception ex){
-            System.out.println(ex.getMessage());
-        }
-
-        //does something
-        try {
             socket = serverSocket.accept();
         }catch (Exception ex){
             System.out.println(ex.getMessage());

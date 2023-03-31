@@ -75,7 +75,7 @@ public class Json {
         }
     }
 
-    boolean isJsonPerson(JSONObject person){
+    public boolean isJsonPerson(JSONObject person){
        String firstName= person.get("firstName").toString();
        String lastName = person.get("lastName").toString();
        String age = person.get("age").toString();

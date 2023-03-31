@@ -1,7 +1,9 @@
 package Tests;
 
 import JavaClasses.Client;
+import JavaClasses.Json;
 import JavaClasses.Server;
+import org.json.simple.JSONObject;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -29,27 +31,61 @@ public class ClientAndServerTest {
     }
 
     @Test
-    void initClient(){
+    void initSocketsInitCommunicationClient(){
         Client client = new Client();
         client.initSockets(6969);
         client.initCommunication();
 
         testClient(client, 6969);
 
-        client.reset();
+        client.close();
+    }
 
+    @Test
+    void initClient(){
+        Client client = new Client();
         client.init(6969);
 
         testClient(client, 6969);
         client.close();
     }
 
+
     @Test
-    void connectionIsGood(){
-        Client client = new Client();
-        client.init(6969);
-        assertTrue(client.connectionIsGood());
+    void jsonFileIsGood(){
+        Json json = new Json();
+        JSONObject allPersons = json.getJsonObjFromFile(json.getJsonPath());
+        String length = allPersons.get("length").toString();
+        assertNotNull(length);
+        assertNotNull(json.getPerson(allPersons, "1"));
+        assertNotNull(json.getPerson(allPersons, length));
+        assertTrue(json.isJsonPerson(json.getPerson(allPersons, "1")));
+        assertTrue(json.isJsonPerson(json.getPerson(allPersons, length)));
     }
+
+    @Test
+    void alterJsonFile(){
+        Json json = new Json();
+        JSONObject allPersons = json.getJsonObjFromFile(json.getJsonPath());
+        JSONObject firstPerson = (JSONObject) allPersons.get("1");
+        String oldAge = firstPerson.get("age").toString();
+        firstPerson.replace("age", "42069");
+
+        json.alterPerson("1", firstPerson);
+
+
+        allPersons = json.getJsonObjFromFile(json.getJsonPath());
+        firstPerson = (JSONObject)allPersons.get("1");
+
+        assertEquals(firstPerson.get("age").toString(), "42069");
+    }
+
+
+
+
+
+
+
 
 
 

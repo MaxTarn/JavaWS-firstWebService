@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="both POST and GET work now, altering the JSON file from the console now works">
+    <list default="true" id="f85c8572-d6c1-4520-a4ea-96b2e055a5ef" name="Changes" comment="removed the TODOs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MainServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MainServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JSON/allPersons.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/JSON/allPersons.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Json.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Json.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JavaClasses/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaClasses/Server.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/ClientAndServerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +77,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected="JUnit.ClientAndServerTest">
+  <component name="RunManager" selected="JUnit.ClientAndServerTest.initServer">
     <configuration name="ClientAndServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
@@ -91,7 +93,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAndServerTest.clientClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientAndServerTest.alterJsonFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +103,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.ClientAndServerTest" />
-      <option name="METHOD_NAME" value="clientClass" />
+      <option name="METHOD_NAME" value="alterJsonFile" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAndServerTest.communication" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientAndServerTest.initServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
         <pattern>
@@ -117,13 +119,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.ClientAndServerTest" />
-      <option name="METHOD_NAME" value="communication" />
+      <option name="METHOD_NAME" value="initServer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAndServerTest.initClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientAndServerTest.initSockestInitCommunicationClient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
         <pattern>
@@ -133,13 +135,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.ClientAndServerTest" />
-      <option name="METHOD_NAME" value="initClient" />
+      <option name="METHOD_NAME" value="initSockestInitCommunicationClient" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClientAndServerTest.initSockets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClientAndServerTest.jsonFileIsGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaWS-firstWebService" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
       <option name="MAIN_CLASS_NAME" value="Tests.ClientAndServerTest" />
-      <option name="METHOD_NAME" value="initSockets" />
+      <option name="METHOD_NAME" value="jsonFileIsGood" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -236,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ClientAndServerTest.initServer" />
         <item itemvalue="JUnit.ClientAndServerTest" />
-        <item itemvalue="JUnit.ClientAndServerTest.clientClass" />
-        <item itemvalue="JUnit.ClientAndServerTest.communication" />
-        <item itemvalue="JUnit.ClientAndServerTest.initClient" />
-        <item itemvalue="JUnit.ClientAndServerTest.initSockets" />
+        <item itemvalue="JUnit.ClientAndServerTest.initSockestInitCommunicationClient" />
+        <item itemvalue="JUnit.ClientAndServerTest.jsonFileIsGood" />
+        <item itemvalue="JUnit.ClientAndServerTest.alterJsonFile" />
       </list>
     </recent_temporary>
   </component>
@@ -265,14 +267,7 @@
       <workItem from="1680162129365" duration="28671000" />
       <workItem from="1680246327186" duration="13503000" />
       <workItem from="1680270545841" duration="1814000" />
-      <workItem from="1680272540397" duration="2111000" />
-    </task>
-    <task id="LOCAL-00058" summary="all JSON data is now in allPersons.json , removed the other JSON files">
-      <created>1679836115185</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1679836115185</updated>
+      <workItem from="1680272540397" duration="7143000" />
     </task>
     <task id="LOCAL-00059" summary="before code was written for multiple files, now code is written for one larger file.">
       <created>1679836195218</created>
@@ -610,7 +605,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680271825892</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="removed the TODOs">
+      <created>1680281182283</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1680281182283</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -628,7 +630,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added way to get out of infinite loop in MainClient, by entering 'quit'" />
     <MESSAGE value="added connectionIsGood() that returns true when all the readers / writers / socket / scanner are not null" />
     <MESSAGE value="the @Test tests dont work now??? i dont know wtf happened" />
     <MESSAGE value="tried to make it so that you can start MainClient before you start MainServer, but failed" />
@@ -653,7 +654,8 @@
     <MESSAGE value="added makeAlterRequest() that returns a POST request" />
     <MESSAGE value="background files" />
     <MESSAGE value="both POST and GET work now, altering the JSON file from the console now works" />
-    <option name="LAST_COMMIT_MESSAGE" value="both POST and GET work now, altering the JSON file from the console now works" />
+    <MESSAGE value="removed the TODOs" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed the TODOs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -661,13 +663,25 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/JavaWS_firstWebService$All_in_JavaWS_firstWebService.ic" NAME="All in JavaWS-firstWebService Coverage Results" MODIFIED="1679568421956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest.ic" NAME="ClientAndServerTest Coverage Results" MODIFIED="1680280866431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest.ic" NAME="ClientAndServerTest Coverage Results" MODIFIED="1680281799814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_alterJsonFile.ic" NAME="ClientAndServerTest.alterJsonFile Coverage Results" MODIFIED="1680294603383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_initSockestInitCommunicationClient.ic" NAME="ClientAndServerTest.initSockestInitCommunicationClient Coverage Results" MODIFIED="1680294875901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_clientClass.ic" NAME="ClientAndServerTest.clientClass Coverage Results" MODIFIED="1680014284800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientTest_initSocket.ic" NAME="ClientTest.initSocket Coverage Results" MODIFIED="1679576845595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_initServer.ic" NAME="ClientAndServerTest.initServer Coverage Results" MODIFIED="1680295208480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>Tests.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/JavaWS_firstWebService$ClientAndServerTest_jsonFileIsGood.ic" NAME="ClientAndServerTest.jsonFileIsGood Coverage Results" MODIFIED="1680294853797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>Tests.*</FILTER>
     </SUITE>
   </component>
