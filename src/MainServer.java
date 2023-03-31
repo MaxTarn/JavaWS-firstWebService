@@ -7,7 +7,7 @@ import org.json.simple.parser.ParseException;
 
 public class MainServer {
     public static void main(String[] args) throws ParseException {
-
+        //TODO add logic that takes and handles the post request, the request to alter/ adds a person in the JSON file
         //creates a server object from the Server class
         Server server = new Server();
 
