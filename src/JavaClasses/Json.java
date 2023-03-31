@@ -121,10 +121,7 @@ public class Json {
           return "invalid personId";
        }
 
-       System.out.println("taken from allPersons  "+ allPersons.get(personId).toString());
-
        JSONObject personToAlter = getPerson(allPersons, personId);
-       System.out.println("taken from person to alterPerson" + personToAlter.toString());
 
        personToAlter.replace(valueName, value);
 
